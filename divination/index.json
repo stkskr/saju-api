@@ -1,0 +1,5749 @@
+{
+  "schema_version": "1.1",
+  "generated": "2026-05-27",
+  "iching": {
+    "hexagrams_path": "iching/hexagrams/",
+    "trigrams_path": "iching/trigrams/",
+    "trigrams": [
+      {
+        "type": "trigram",
+        "id": "qian",
+        "binary_bottom_to_top": "111",
+        "name_zh": "乾",
+        "name_pinyin": "Qián",
+        "name_ko": "건",
+        "name_ko_hanja": "乾",
+        "name_en": "Heaven",
+        "element": "metal",
+        "attribute": "creative, strong",
+        "family": "father",
+        "body": "head",
+        "animal": "horse",
+        "direction_pre_heaven": "south",
+        "direction_post_heaven": "northwest",
+        "season": "late autumn",
+        "color": "deep red / white",
+        "keywords": [
+          "creative",
+          "initiating",
+          "leadership",
+          "yang",
+          "sky"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "kun",
+        "binary_bottom_to_top": "000",
+        "name_zh": "坤",
+        "name_pinyin": "Kūn",
+        "name_ko": "곤",
+        "name_ko_hanja": "坤",
+        "name_en": "Earth",
+        "element": "earth",
+        "attribute": "receptive, yielding",
+        "family": "mother",
+        "body": "belly",
+        "animal": "cow",
+        "direction_pre_heaven": "north",
+        "direction_post_heaven": "southwest",
+        "season": "late summer",
+        "color": "black / yellow",
+        "keywords": [
+          "receptive",
+          "nurturing",
+          "devotion",
+          "yin",
+          "field"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "zhen",
+        "binary_bottom_to_top": "100",
+        "name_zh": "震",
+        "name_pinyin": "Zhèn",
+        "name_ko": "진",
+        "name_ko_hanja": "震",
+        "name_en": "Thunder",
+        "element": "wood",
+        "attribute": "arousing, movement",
+        "family": "eldest son",
+        "body": "foot",
+        "animal": "dragon",
+        "direction_pre_heaven": "northeast",
+        "direction_post_heaven": "east",
+        "season": "spring",
+        "color": "dark yellow",
+        "keywords": [
+          "arousing",
+          "shock",
+          "initiative",
+          "movement",
+          "decisive"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "kan",
+        "binary_bottom_to_top": "010",
+        "name_zh": "坎",
+        "name_pinyin": "Kǎn",
+        "name_ko": "감",
+        "name_ko_hanja": "坎",
+        "name_en": "Water",
+        "element": "water",
+        "attribute": "dangerous, abysmal, flowing",
+        "family": "middle son",
+        "body": "ear",
+        "animal": "pig",
+        "direction_pre_heaven": "west",
+        "direction_post_heaven": "north",
+        "season": "winter",
+        "color": "red",
+        "keywords": [
+          "danger",
+          "depth",
+          "flow",
+          "the unconscious",
+          "trial"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "gen",
+        "binary_bottom_to_top": "001",
+        "name_zh": "艮",
+        "name_pinyin": "Gèn",
+        "name_ko": "간",
+        "name_ko_hanja": "艮",
+        "name_en": "Mountain",
+        "element": "earth",
+        "attribute": "keeping still, stopping",
+        "family": "youngest son",
+        "body": "hand",
+        "animal": "dog",
+        "direction_pre_heaven": "northwest",
+        "direction_post_heaven": "northeast",
+        "season": "late winter / early spring",
+        "color": "white",
+        "keywords": [
+          "stillness",
+          "boundary",
+          "meditation",
+          "stopping",
+          "stability"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "xun",
+        "binary_bottom_to_top": "011",
+        "name_zh": "巽",
+        "name_pinyin": "Xùn",
+        "name_ko": "손",
+        "name_ko_hanja": "巽",
+        "name_en": "Wind",
+        "element": "wood",
+        "attribute": "gentle, penetrating",
+        "family": "eldest daughter",
+        "body": "thigh",
+        "animal": "fowl",
+        "direction_pre_heaven": "southwest",
+        "direction_post_heaven": "southeast",
+        "season": "late spring / early summer",
+        "color": "white",
+        "keywords": [
+          "penetration",
+          "gentleness",
+          "influence",
+          "indirect",
+          "subtle"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "li",
+        "binary_bottom_to_top": "101",
+        "name_zh": "離",
+        "name_pinyin": "Lí",
+        "name_ko": "리",
+        "name_ko_hanja": "離",
+        "name_en": "Fire",
+        "element": "fire",
+        "attribute": "clinging, brightness",
+        "family": "middle daughter",
+        "body": "eye",
+        "animal": "pheasant",
+        "direction_pre_heaven": "east",
+        "direction_post_heaven": "south",
+        "season": "summer",
+        "color": "purple / red",
+        "keywords": [
+          "clarity",
+          "attachment",
+          "illumination",
+          "awareness",
+          "intelligence"
+        ]
+      },
+      {
+        "type": "trigram",
+        "id": "dui",
+        "binary_bottom_to_top": "110",
+        "name_zh": "兌",
+        "name_pinyin": "Duì",
+        "name_ko": "태",
+        "name_ko_hanja": "兌",
+        "name_en": "Lake",
+        "element": "metal",
+        "attribute": "joyous, open",
+        "family": "youngest daughter",
+        "body": "mouth",
+        "animal": "sheep",
+        "direction_pre_heaven": "southeast",
+        "direction_post_heaven": "west",
+        "season": "autumn",
+        "color": "white",
+        "keywords": [
+          "joy",
+          "pleasure",
+          "openness",
+          "exchange",
+          "communication"
+        ]
+      }
+    ],
+    "hexagrams": [
+      {
+        "id": 1,
+        "slug": "01-qian-qian",
+        "name_zh": "乾",
+        "name_pinyin": "Qián",
+        "name_en": "The Creative / Force",
+        "name_ko": "중천건",
+        "trigram_lower": "qian",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "111111",
+        "keywords": [
+          "creative",
+          "heaven",
+          "strength",
+          "initiating",
+          "pure yang"
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "02-kun-kun",
+        "name_zh": "坤",
+        "name_pinyin": "Kūn",
+        "name_en": "The Receptive / Field",
+        "name_ko": "중지곤",
+        "trigram_lower": "kun",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "000000",
+        "keywords": [
+          "receptive",
+          "earth",
+          "yielding",
+          "nurturing",
+          "pure yin"
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "03-zhen-kan",
+        "name_zh": "屯",
+        "name_pinyin": "Zhūn",
+        "name_en": "Difficulty at the Beginning / Sprouting",
+        "name_ko": "수뢰둔",
+        "trigram_lower": "zhen",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "100010",
+        "keywords": [
+          "beginning",
+          "struggle",
+          "germination",
+          "chaos",
+          "growth"
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "04-kan-gen",
+        "name_zh": "蒙",
+        "name_pinyin": "Méng",
+        "name_en": "Youthful Folly / Enveloping",
+        "name_ko": "산수몽",
+        "trigram_lower": "kan",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "010001",
+        "keywords": [
+          "inexperience",
+          "learning",
+          "naivety",
+          "teaching",
+          "discovery"
+        ]
+      },
+      {
+        "id": 5,
+        "slug": "05-qian-kan",
+        "name_zh": "需",
+        "name_pinyin": "Xū",
+        "name_en": "Waiting / Attending",
+        "name_ko": "수천수",
+        "trigram_lower": "qian",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "111010",
+        "keywords": [
+          "waiting",
+          "patience",
+          "nourishment",
+          "timing",
+          "trust"
+        ]
+      },
+      {
+        "id": 6,
+        "slug": "06-kan-qian",
+        "name_zh": "訟",
+        "name_pinyin": "Sòng",
+        "name_en": "Conflict / Arguing",
+        "name_ko": "천수송",
+        "trigram_lower": "kan",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "010111",
+        "keywords": [
+          "conflict",
+          "litigation",
+          "disputes",
+          "caution",
+          "compromise"
+        ]
+      },
+      {
+        "id": 7,
+        "slug": "07-kan-kun",
+        "name_zh": "師",
+        "name_pinyin": "Shī",
+        "name_en": "The Army / Leading",
+        "name_ko": "지수사",
+        "trigram_lower": "kan",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "010000",
+        "keywords": [
+          "leadership",
+          "discipline",
+          "collective",
+          "organization",
+          "strategy"
+        ]
+      },
+      {
+        "id": 8,
+        "slug": "08-kun-kan",
+        "name_zh": "比",
+        "name_pinyin": "Bǐ",
+        "name_en": "Holding Together / Union",
+        "name_ko": "수지비",
+        "trigram_lower": "kun",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "000010",
+        "keywords": [
+          "union",
+          "alliance",
+          "support",
+          "belonging",
+          "community"
+        ]
+      },
+      {
+        "id": 9,
+        "slug": "09-qian-xun",
+        "name_zh": "小畜",
+        "name_pinyin": "Xiǎo Xù",
+        "name_en": "Small Taming / Small Accumulation",
+        "name_ko": "풍천소축",
+        "trigram_lower": "qian",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "111011",
+        "keywords": [
+          "restraint",
+          "small gains",
+          "patience",
+          "gentle pressure",
+          "preparation"
+        ]
+      },
+      {
+        "id": 10,
+        "slug": "10-dui-qian",
+        "name_zh": "履",
+        "name_pinyin": "Lǚ",
+        "name_en": "Treading / Conduct",
+        "name_ko": "천택리",
+        "trigram_lower": "dui",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "110111",
+        "keywords": [
+          "caution",
+          "conduct",
+          "manners",
+          "treading carefully",
+          "ethics"
+        ]
+      },
+      {
+        "id": 11,
+        "slug": "11-qian-kun",
+        "name_zh": "泰",
+        "name_pinyin": "Tài",
+        "name_en": "Peace / Pervading",
+        "name_ko": "지천태",
+        "trigram_lower": "qian",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "111000",
+        "keywords": [
+          "harmony",
+          "flow",
+          "prosperity",
+          "balance",
+          "exchange"
+        ]
+      },
+      {
+        "id": 12,
+        "slug": "12-kun-qian",
+        "name_zh": "否",
+        "name_pinyin": "Pǐ",
+        "name_en": "Standstill / Obstruction",
+        "name_ko": "천지비",
+        "trigram_lower": "kun",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "000111",
+        "keywords": [
+          "stagnation",
+          "blockage",
+          "decline",
+          "withdrawal",
+          "isolation"
+        ]
+      },
+      {
+        "id": 13,
+        "slug": "13-li-qian",
+        "name_zh": "同人",
+        "name_pinyin": "Tóng Rén",
+        "name_en": "Fellowship with People",
+        "name_ko": "천화동인",
+        "trigram_lower": "li",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "101111",
+        "keywords": [
+          "fellowship",
+          "community",
+          "shared purpose",
+          "alliance",
+          "transparency"
+        ]
+      },
+      {
+        "id": 14,
+        "slug": "14-qian-li",
+        "name_zh": "大有",
+        "name_pinyin": "Dà Yǒu",
+        "name_en": "Great Possession / Great Holding",
+        "name_ko": "화천대유",
+        "trigram_lower": "qian",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "111101",
+        "keywords": [
+          "abundance",
+          "wealth",
+          "responsibility",
+          "stewardship",
+          "clarity"
+        ]
+      },
+      {
+        "id": 15,
+        "slug": "15-gen-kun",
+        "name_zh": "謙",
+        "name_pinyin": "Qiān",
+        "name_en": "Modesty / Humility",
+        "name_ko": "지산겸",
+        "trigram_lower": "gen",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "001000",
+        "keywords": [
+          "humility",
+          "modesty",
+          "balance",
+          "moderation",
+          "quiet strength"
+        ]
+      },
+      {
+        "id": 16,
+        "slug": "16-kun-zhen",
+        "name_zh": "豫",
+        "name_pinyin": "Yù",
+        "name_en": "Enthusiasm / Providing-For",
+        "name_ko": "뇌지예",
+        "trigram_lower": "kun",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "000100",
+        "keywords": [
+          "enthusiasm",
+          "anticipation",
+          "music",
+          "joy",
+          "movement"
+        ]
+      },
+      {
+        "id": 17,
+        "slug": "17-zhen-dui",
+        "name_zh": "隨",
+        "name_pinyin": "Suí",
+        "name_en": "Following / Pursuing",
+        "name_ko": "택뢰수",
+        "trigram_lower": "zhen",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "100110",
+        "keywords": [
+          "following",
+          "adaptability",
+          "going with flow",
+          "leadership through service",
+          "yielding"
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "18-xun-gen",
+        "name_zh": "蠱",
+        "name_pinyin": "Gǔ",
+        "name_en": "Work on the Decayed / Correcting",
+        "name_ko": "산풍고",
+        "trigram_lower": "xun",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "011001",
+        "keywords": [
+          "repair",
+          "decay",
+          "restoration",
+          "family karma",
+          "long-term work"
+        ]
+      },
+      {
+        "id": 19,
+        "slug": "19-dui-kun",
+        "name_zh": "臨",
+        "name_pinyin": "Lín",
+        "name_en": "Approach / Drawing Near",
+        "name_ko": "지택림",
+        "trigram_lower": "dui",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "110000",
+        "keywords": [
+          "approach",
+          "supervision",
+          "drawing near",
+          "leadership",
+          "opportunity"
+        ]
+      },
+      {
+        "id": 20,
+        "slug": "20-kun-xun",
+        "name_zh": "觀",
+        "name_pinyin": "Guān",
+        "name_en": "Contemplation / Viewing",
+        "name_ko": "풍지관",
+        "trigram_lower": "kun",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "000011",
+        "keywords": [
+          "observation",
+          "perspective",
+          "contemplation",
+          "example",
+          "modeling"
+        ]
+      },
+      {
+        "id": 21,
+        "slug": "21-zhen-li",
+        "name_zh": "噬嗑",
+        "name_pinyin": "Shì Hé",
+        "name_en": "Biting Through",
+        "name_ko": "화뢰서합",
+        "trigram_lower": "zhen",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "100101",
+        "keywords": [
+          "resolve",
+          "decisive action",
+          "justice",
+          "breaking through obstacles",
+          "law"
+        ]
+      },
+      {
+        "id": 22,
+        "slug": "22-li-gen",
+        "name_zh": "賁",
+        "name_pinyin": "Bì",
+        "name_en": "Grace / Adorning",
+        "name_ko": "산화비",
+        "trigram_lower": "li",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "101001",
+        "keywords": [
+          "beauty",
+          "form",
+          "adornment",
+          "aesthetics",
+          "presentation"
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "23-kun-gen",
+        "name_zh": "剝",
+        "name_pinyin": "Bō",
+        "name_en": "Splitting Apart / Stripping",
+        "name_ko": "산지박",
+        "trigram_lower": "kun",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "000001",
+        "keywords": [
+          "decay",
+          "deterioration",
+          "stripping away",
+          "collapse",
+          "preservation"
+        ]
+      },
+      {
+        "id": 24,
+        "slug": "24-zhen-kun",
+        "name_zh": "復",
+        "name_pinyin": "Fù",
+        "name_en": "Return / Returning",
+        "name_ko": "지뢰복",
+        "trigram_lower": "zhen",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "100000",
+        "keywords": [
+          "return",
+          "turning point",
+          "renewal",
+          "rebirth",
+          "new cycle"
+        ]
+      },
+      {
+        "id": 25,
+        "slug": "25-zhen-qian",
+        "name_zh": "無妄",
+        "name_pinyin": "Wú Wàng",
+        "name_en": "Innocence / Without Pretense",
+        "name_ko": "천뢰무망",
+        "trigram_lower": "zhen",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "100111",
+        "keywords": [
+          "spontaneity",
+          "authenticity",
+          "innocence",
+          "naturalness",
+          "trust"
+        ]
+      },
+      {
+        "id": 26,
+        "slug": "26-qian-gen",
+        "name_zh": "大畜",
+        "name_pinyin": "Dà Xù",
+        "name_en": "Great Taming / Great Accumulation",
+        "name_ko": "산천대축",
+        "trigram_lower": "qian",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "111001",
+        "keywords": [
+          "accumulation",
+          "storing energy",
+          "discipline",
+          "study",
+          "great force restrained"
+        ]
+      },
+      {
+        "id": 27,
+        "slug": "27-zhen-gen",
+        "name_zh": "頤",
+        "name_pinyin": "Yí",
+        "name_en": "Nourishment / Jaws",
+        "name_ko": "산뢰이",
+        "trigram_lower": "zhen",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "100001",
+        "keywords": [
+          "nourishment",
+          "diet",
+          "what you consume",
+          "self-care",
+          "speech"
+        ]
+      },
+      {
+        "id": 28,
+        "slug": "28-xun-dui",
+        "name_zh": "大過",
+        "name_pinyin": "Dà Guò",
+        "name_en": "Great Exceeding / Great Preponderance",
+        "name_ko": "택풍대과",
+        "trigram_lower": "xun",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "011110",
+        "keywords": [
+          "crisis",
+          "overload",
+          "burden",
+          "extraordinary times",
+          "decisive"
+        ]
+      },
+      {
+        "id": 29,
+        "slug": "29-kan-kan",
+        "name_zh": "坎",
+        "name_pinyin": "Kǎn",
+        "name_en": "The Abysmal / Repeating Water",
+        "name_ko": "중수감",
+        "trigram_lower": "kan",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "010010",
+        "keywords": [
+          "danger",
+          "depth",
+          "trial",
+          "flow through difficulty",
+          "perseverance"
+        ]
+      },
+      {
+        "id": 30,
+        "slug": "30-li-li",
+        "name_zh": "離",
+        "name_pinyin": "Lí",
+        "name_en": "The Clinging / Fire",
+        "name_ko": "중화리",
+        "trigram_lower": "li",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "101101",
+        "keywords": [
+          "clarity",
+          "awareness",
+          "attachment",
+          "brilliance",
+          "right attachment"
+        ]
+      },
+      {
+        "id": 31,
+        "slug": "31-gen-dui",
+        "name_zh": "咸",
+        "name_pinyin": "Xián",
+        "name_en": "Influence / Mutual Influence",
+        "name_ko": "택산함",
+        "trigram_lower": "gen",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "001110",
+        "keywords": [
+          "attraction",
+          "courtship",
+          "influence",
+          "stimulation",
+          "openness"
+        ]
+      },
+      {
+        "id": 32,
+        "slug": "32-xun-zhen",
+        "name_zh": "恆",
+        "name_pinyin": "Héng",
+        "name_en": "Duration / Constancy",
+        "name_ko": "뇌풍항",
+        "trigram_lower": "xun",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "011100",
+        "keywords": [
+          "endurance",
+          "constancy",
+          "commitment",
+          "long-term",
+          "marriage"
+        ]
+      },
+      {
+        "id": 33,
+        "slug": "33-gen-qian",
+        "name_zh": "遯",
+        "name_pinyin": "Dùn",
+        "name_en": "Retreat / Withdrawing",
+        "name_ko": "천산돈",
+        "trigram_lower": "gen",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "001111",
+        "keywords": [
+          "retreat",
+          "strategic withdrawal",
+          "yielding ground",
+          "preservation",
+          "timing"
+        ]
+      },
+      {
+        "id": 34,
+        "slug": "34-qian-zhen",
+        "name_zh": "大壯",
+        "name_pinyin": "Dà Zhuàng",
+        "name_en": "Great Power",
+        "name_ko": "뇌천대장",
+        "trigram_lower": "qian",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "111100",
+        "keywords": [
+          "great power",
+          "strength",
+          "force",
+          "restraint",
+          "righteousness"
+        ]
+      },
+      {
+        "id": 35,
+        "slug": "35-kun-li",
+        "name_zh": "晉",
+        "name_pinyin": "Jìn",
+        "name_en": "Progress / Advancing",
+        "name_ko": "화지진",
+        "trigram_lower": "kun",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "000101",
+        "keywords": [
+          "progress",
+          "recognition",
+          "rising",
+          "rapid advance",
+          "sunrise"
+        ]
+      },
+      {
+        "id": 36,
+        "slug": "36-li-kun",
+        "name_zh": "明夷",
+        "name_pinyin": "Míng Yí",
+        "name_en": "Darkening of the Light",
+        "name_ko": "지화명이",
+        "trigram_lower": "li",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "101000",
+        "keywords": [
+          "darkness",
+          "hiding brilliance",
+          "survival",
+          "inner light",
+          "perseverance"
+        ]
+      },
+      {
+        "id": 37,
+        "slug": "37-li-xun",
+        "name_zh": "家人",
+        "name_pinyin": "Jiā Rén",
+        "name_en": "The Family / People in the Home",
+        "name_ko": "풍화가인",
+        "trigram_lower": "li",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "101011",
+        "keywords": [
+          "family",
+          "household",
+          "roles",
+          "boundaries",
+          "domesticity"
+        ]
+      },
+      {
+        "id": 38,
+        "slug": "38-dui-li",
+        "name_zh": "睽",
+        "name_pinyin": "Kuí",
+        "name_en": "Opposition / Polarizing",
+        "name_ko": "화택규",
+        "trigram_lower": "dui",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "110101",
+        "keywords": [
+          "opposition",
+          "polarity",
+          "misunderstanding",
+          "estrangement",
+          "differences"
+        ]
+      },
+      {
+        "id": 39,
+        "slug": "39-gen-kan",
+        "name_zh": "蹇",
+        "name_pinyin": "Jiǎn",
+        "name_en": "Obstruction / Limping",
+        "name_ko": "수산건",
+        "trigram_lower": "gen",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "001010",
+        "keywords": [
+          "obstruction",
+          "obstacles",
+          "limping",
+          "seeking help",
+          "perseverance"
+        ]
+      },
+      {
+        "id": 40,
+        "slug": "40-kan-zhen",
+        "name_zh": "解",
+        "name_pinyin": "Xiè",
+        "name_en": "Deliverance / Loosening",
+        "name_ko": "뇌수해",
+        "trigram_lower": "kan",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "010100",
+        "keywords": [
+          "release",
+          "deliverance",
+          "forgiveness",
+          "letting go",
+          "thaw"
+        ]
+      },
+      {
+        "id": 41,
+        "slug": "41-dui-gen",
+        "name_zh": "損",
+        "name_pinyin": "Sǔn",
+        "name_en": "Decrease / Diminishing",
+        "name_ko": "산택손",
+        "trigram_lower": "dui",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "110001",
+        "keywords": [
+          "decrease",
+          "sacrifice",
+          "simplification",
+          "restraint",
+          "selflessness"
+        ]
+      },
+      {
+        "id": 42,
+        "slug": "42-zhen-xun",
+        "name_zh": "益",
+        "name_pinyin": "Yì",
+        "name_en": "Increase / Augmenting",
+        "name_ko": "풍뢰익",
+        "trigram_lower": "zhen",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "100011",
+        "keywords": [
+          "increase",
+          "abundance",
+          "growth",
+          "sacrifice from above",
+          "expansion"
+        ]
+      },
+      {
+        "id": 43,
+        "slug": "43-qian-dui",
+        "name_zh": "夬",
+        "name_pinyin": "Guài",
+        "name_en": "Breakthrough / Resoluteness",
+        "name_ko": "택천쾌",
+        "trigram_lower": "qian",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "111110",
+        "keywords": [
+          "breakthrough",
+          "resolution",
+          "decisive action",
+          "righteous resolve",
+          "elimination"
+        ]
+      },
+      {
+        "id": 44,
+        "slug": "44-xun-qian",
+        "name_zh": "姤",
+        "name_pinyin": "Gòu",
+        "name_en": "Coming to Meet / Encountering",
+        "name_ko": "천풍구",
+        "trigram_lower": "xun",
+        "trigram_upper": "qian",
+        "binary_bottom_to_top": "011111",
+        "keywords": [
+          "temptation",
+          "encounter",
+          "subtle influence",
+          "the unexpected",
+          "caution"
+        ]
+      },
+      {
+        "id": 45,
+        "slug": "45-kun-dui",
+        "name_zh": "萃",
+        "name_pinyin": "Cuì",
+        "name_en": "Gathering Together / Massing",
+        "name_ko": "택지췌",
+        "trigram_lower": "kun",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "000110",
+        "keywords": [
+          "gathering",
+          "assembly",
+          "community",
+          "leadership",
+          "common purpose"
+        ]
+      },
+      {
+        "id": 46,
+        "slug": "46-xun-kun",
+        "name_zh": "升",
+        "name_pinyin": "Shēng",
+        "name_en": "Pushing Upward / Ascending",
+        "name_ko": "지풍승",
+        "trigram_lower": "xun",
+        "trigram_upper": "kun",
+        "binary_bottom_to_top": "011000",
+        "keywords": [
+          "growth",
+          "ascent",
+          "steady rise",
+          "effort",
+          "progression"
+        ]
+      },
+      {
+        "id": 47,
+        "slug": "47-kan-dui",
+        "name_zh": "困",
+        "name_pinyin": "Kùn",
+        "name_en": "Oppression / Exhaustion",
+        "name_ko": "택수곤",
+        "trigram_lower": "kan",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "010110",
+        "keywords": [
+          "exhaustion",
+          "limits",
+          "adversity",
+          "perseverance",
+          "speechless dignity"
+        ]
+      },
+      {
+        "id": 48,
+        "slug": "48-xun-kan",
+        "name_zh": "井",
+        "name_pinyin": "Jǐng",
+        "name_en": "The Well",
+        "name_ko": "수풍정",
+        "trigram_lower": "xun",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "011010",
+        "keywords": [
+          "resources",
+          "common good",
+          "infrastructure",
+          "inexhaustible",
+          "depth"
+        ]
+      },
+      {
+        "id": 49,
+        "slug": "49-li-dui",
+        "name_zh": "革",
+        "name_pinyin": "Gé",
+        "name_en": "Revolution / Skinning",
+        "name_ko": "택화혁",
+        "trigram_lower": "li",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "101110",
+        "keywords": [
+          "revolution",
+          "transformation",
+          "molting",
+          "radical change",
+          "right timing"
+        ]
+      },
+      {
+        "id": 50,
+        "slug": "50-xun-li",
+        "name_zh": "鼎",
+        "name_pinyin": "Dǐng",
+        "name_en": "The Cauldron",
+        "name_ko": "화풍정",
+        "trigram_lower": "xun",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "011101",
+        "keywords": [
+          "transformation",
+          "nourishment",
+          "culture",
+          "sacred vessel",
+          "alchemy"
+        ]
+      },
+      {
+        "id": 51,
+        "slug": "51-zhen-zhen",
+        "name_zh": "震",
+        "name_pinyin": "Zhèn",
+        "name_en": "The Arousing / Thunder",
+        "name_ko": "중뢰진",
+        "trigram_lower": "zhen",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "100100",
+        "keywords": [
+          "shock",
+          "awakening",
+          "sudden movement",
+          "fear",
+          "composure"
+        ]
+      },
+      {
+        "id": 52,
+        "slug": "52-gen-gen",
+        "name_zh": "艮",
+        "name_pinyin": "Gèn",
+        "name_en": "Keeping Still / Mountain",
+        "name_ko": "중산간",
+        "trigram_lower": "gen",
+        "trigram_upper": "gen",
+        "binary_bottom_to_top": "001001",
+        "keywords": [
+          "stillness",
+          "meditation",
+          "boundary",
+          "self-mastery",
+          "non-action"
+        ]
+      },
+      {
+        "id": 53,
+        "slug": "53-gen-xun",
+        "name_zh": "漸",
+        "name_pinyin": "Jiàn",
+        "name_en": "Development / Gradual Progress",
+        "name_ko": "풍산점",
+        "trigram_lower": "gen",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "001011",
+        "keywords": [
+          "gradual progress",
+          "patience",
+          "stages",
+          "courtship",
+          "right order"
+        ]
+      },
+      {
+        "id": 54,
+        "slug": "54-dui-zhen",
+        "name_zh": "歸妹",
+        "name_pinyin": "Guī Mèi",
+        "name_en": "The Marrying Maiden",
+        "name_ko": "뇌택귀매",
+        "trigram_lower": "dui",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "110100",
+        "keywords": [
+          "mismatch",
+          "subordinate position",
+          "passion",
+          "tact",
+          "complicated relationships"
+        ]
+      },
+      {
+        "id": 55,
+        "slug": "55-li-zhen",
+        "name_zh": "豐",
+        "name_pinyin": "Fēng",
+        "name_en": "Abundance / Fullness",
+        "name_ko": "뇌화풍",
+        "trigram_lower": "li",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "101100",
+        "keywords": [
+          "peak abundance",
+          "fullness",
+          "clarity meets movement",
+          "fleeting moments",
+          "shine"
+        ]
+      },
+      {
+        "id": 56,
+        "slug": "56-gen-li",
+        "name_zh": "旅",
+        "name_pinyin": "Lǚ",
+        "name_en": "The Wanderer / Sojourning",
+        "name_ko": "화산려",
+        "trigram_lower": "gen",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "001101",
+        "keywords": [
+          "travel",
+          "wandering",
+          "outsider",
+          "transience",
+          "tact in foreign places"
+        ]
+      },
+      {
+        "id": 57,
+        "slug": "57-xun-xun",
+        "name_zh": "巽",
+        "name_pinyin": "Xùn",
+        "name_en": "The Gentle / Penetrating Wind",
+        "name_ko": "중풍손",
+        "trigram_lower": "xun",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "011011",
+        "keywords": [
+          "gentle influence",
+          "penetration",
+          "persistence",
+          "indirect",
+          "yielding"
+        ]
+      },
+      {
+        "id": 58,
+        "slug": "58-dui-dui",
+        "name_zh": "兌",
+        "name_pinyin": "Duì",
+        "name_en": "The Joyous / Lake",
+        "name_ko": "중택태",
+        "trigram_lower": "dui",
+        "trigram_upper": "dui",
+        "binary_bottom_to_top": "110110",
+        "keywords": [
+          "joy",
+          "openness",
+          "communication",
+          "shared pleasure",
+          "honest exchange"
+        ]
+      },
+      {
+        "id": 59,
+        "slug": "59-kan-xun",
+        "name_zh": "渙",
+        "name_pinyin": "Huàn",
+        "name_en": "Dispersion / Dissolving",
+        "name_ko": "풍수환",
+        "trigram_lower": "kan",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "010011",
+        "keywords": [
+          "dissolution",
+          "breaking up ice",
+          "scattering ego",
+          "ritual",
+          "reuniting"
+        ]
+      },
+      {
+        "id": 60,
+        "slug": "60-dui-kan",
+        "name_zh": "節",
+        "name_pinyin": "Jié",
+        "name_en": "Limitation / Articulating",
+        "name_ko": "수택절",
+        "trigram_lower": "dui",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "110010",
+        "keywords": [
+          "limits",
+          "discipline",
+          "moderation",
+          "discernment",
+          "boundaries"
+        ]
+      },
+      {
+        "id": 61,
+        "slug": "61-dui-xun",
+        "name_zh": "中孚",
+        "name_pinyin": "Zhōng Fú",
+        "name_en": "Inner Truth",
+        "name_ko": "풍택중부",
+        "trigram_lower": "dui",
+        "trigram_upper": "xun",
+        "binary_bottom_to_top": "110011",
+        "keywords": [
+          "sincerity",
+          "trust",
+          "inner truth",
+          "deep listening",
+          "resonance"
+        ]
+      },
+      {
+        "id": 62,
+        "slug": "62-gen-zhen",
+        "name_zh": "小過",
+        "name_pinyin": "Xiǎo Guò",
+        "name_en": "Small Exceeding",
+        "name_ko": "뇌산소과",
+        "trigram_lower": "gen",
+        "trigram_upper": "zhen",
+        "binary_bottom_to_top": "001100",
+        "keywords": [
+          "small excess",
+          "humility",
+          "attention to detail",
+          "modest",
+          "downward"
+        ]
+      },
+      {
+        "id": 63,
+        "slug": "63-li-kan",
+        "name_zh": "既濟",
+        "name_pinyin": "Jì Jì",
+        "name_en": "After Completion / Already Across",
+        "name_ko": "수화기제",
+        "trigram_lower": "li",
+        "trigram_upper": "kan",
+        "binary_bottom_to_top": "101010",
+        "keywords": [
+          "completion",
+          "balance achieved",
+          "vigilance",
+          "decline starting",
+          "order"
+        ]
+      },
+      {
+        "id": 64,
+        "slug": "64-kan-li",
+        "name_zh": "未濟",
+        "name_pinyin": "Wèi Jì",
+        "name_en": "Before Completion / Not Yet Across",
+        "name_ko": "화수미제",
+        "trigram_lower": "kan",
+        "trigram_upper": "li",
+        "binary_bottom_to_top": "010101",
+        "keywords": [
+          "incompletion",
+          "transition",
+          "potential",
+          "caution",
+          "new beginning embedded in end"
+        ]
+      }
+    ]
+  },
+  "saju": {
+    "stems_path": "saju/stems/",
+    "branches_path": "saju/branches/",
+    "ten_gods_path": "saju/ten_gods/",
+    "sin_sal_path": "saju/sin_sal/",
+    "elements_file": "saju/elements.md",
+    "twelve_stages_file": "saju/twelve_stages.md",
+    "sixty_jiazi_file": "saju/sixty_jiazi.md",
+    "solar_terms_file": "saju/solar_terms.md",
+    "stems": [
+      {
+        "type": "heavenly_stem",
+        "id": 1,
+        "chinese": "甲",
+        "korean": "갑",
+        "korean_romanized": "gap",
+        "pinyin": "jiǎ",
+        "element": "wood",
+        "yin_yang": "yang",
+        "sequence": 1,
+        "keywords": [
+          "initiation",
+          "leadership",
+          "upright",
+          "growth",
+          "pioneering"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 2,
+        "chinese": "乙",
+        "korean": "을",
+        "korean_romanized": "eul",
+        "pinyin": "yǐ",
+        "element": "wood",
+        "yin_yang": "yin",
+        "sequence": 2,
+        "keywords": [
+          "flexibility",
+          "tenacity",
+          "creativity",
+          "softness with strength",
+          "adaptive"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 3,
+        "chinese": "丙",
+        "korean": "병",
+        "korean_romanized": "byeong",
+        "pinyin": "bǐng",
+        "element": "fire",
+        "yin_yang": "yang",
+        "sequence": 3,
+        "keywords": [
+          "radiance",
+          "passion",
+          "openness",
+          "warmth",
+          "extroversion"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 4,
+        "chinese": "丁",
+        "korean": "정",
+        "korean_romanized": "jeong",
+        "pinyin": "dīng",
+        "element": "fire",
+        "yin_yang": "yin",
+        "sequence": 4,
+        "keywords": [
+          "focused warmth",
+          "intuition",
+          "refinement",
+          "delicate",
+          "transformative"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 5,
+        "chinese": "戊",
+        "korean": "무",
+        "korean_romanized": "mu",
+        "pinyin": "wù",
+        "element": "earth",
+        "yin_yang": "yang",
+        "sequence": 5,
+        "keywords": [
+          "stability",
+          "endurance",
+          "structure",
+          "reliable",
+          "protective"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 6,
+        "chinese": "己",
+        "korean": "기",
+        "korean_romanized": "gi",
+        "pinyin": "jǐ",
+        "element": "earth",
+        "yin_yang": "yin",
+        "sequence": 6,
+        "keywords": [
+          "nurturing",
+          "fertility",
+          "service",
+          "yielding strength",
+          "cultivation"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 7,
+        "chinese": "庚",
+        "korean": "경",
+        "korean_romanized": "gyeong",
+        "pinyin": "gēng",
+        "element": "metal",
+        "yin_yang": "yang",
+        "sequence": 7,
+        "keywords": [
+          "decisive",
+          "justice",
+          "cutting",
+          "righteous",
+          "direct"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 8,
+        "chinese": "辛",
+        "korean": "신",
+        "korean_romanized": "sin",
+        "pinyin": "xīn",
+        "element": "metal",
+        "yin_yang": "yin",
+        "sequence": 8,
+        "keywords": [
+          "refined",
+          "elegant",
+          "discerning",
+          "precise",
+          "self-aware"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 9,
+        "chinese": "壬",
+        "korean": "임",
+        "korean_romanized": "im",
+        "pinyin": "rén",
+        "element": "water",
+        "yin_yang": "yang",
+        "sequence": 9,
+        "keywords": [
+          "vast",
+          "wise",
+          "ambitious",
+          "flowing",
+          "deep"
+        ]
+      },
+      {
+        "type": "heavenly_stem",
+        "id": 10,
+        "chinese": "癸",
+        "korean": "계",
+        "korean_romanized": "gye",
+        "pinyin": "guǐ",
+        "element": "water",
+        "yin_yang": "yin",
+        "sequence": 10,
+        "keywords": [
+          "intuitive",
+          "soft",
+          "subtle",
+          "penetrating",
+          "nourishing"
+        ]
+      }
+    ],
+    "branches": [
+      {
+        "type": "earthly_branch",
+        "id": 1,
+        "chinese": "子",
+        "korean": "자",
+        "korean_romanized": "ja",
+        "pinyin": "zǐ",
+        "element": "water",
+        "yin_yang_polar": "yang",
+        "yin_yang_operational": "yin",
+        "zodiac": "rat",
+        "hour": "23:00–01:00",
+        "lunar_month": 11,
+        "solar_month": "winter solstice",
+        "season": "winter",
+        "direction": "north",
+        "hidden_stems": [
+          "癸"
+        ],
+        "keywords": [
+          "beginning of cycle",
+          "midnight",
+          "hidden activity",
+          "intelligence",
+          "discretion"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 2,
+        "chinese": "丑",
+        "korean": "축",
+        "korean_romanized": "chuk",
+        "pinyin": "chǒu",
+        "element": "earth",
+        "yin_yang_polar": "yin",
+        "yin_yang_operational": "yin",
+        "zodiac": "ox",
+        "hour": "01:00–03:00",
+        "lunar_month": 12,
+        "solar_month": "late winter",
+        "season": "winter to spring",
+        "direction": "north-northeast",
+        "hidden_stems": [
+          "己",
+          "癸",
+          "辛"
+        ],
+        "keywords": [
+          "endurance",
+          "patient labor",
+          "storage",
+          "frozen ground",
+          "reliability"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 3,
+        "chinese": "寅",
+        "korean": "인",
+        "korean_romanized": "in",
+        "pinyin": "yín",
+        "element": "wood",
+        "yin_yang_polar": "yang",
+        "yin_yang_operational": "yang",
+        "zodiac": "tiger",
+        "hour": "03:00–05:00",
+        "lunar_month": 1,
+        "solar_month": "early spring (lichun)",
+        "season": "spring",
+        "direction": "east-northeast",
+        "hidden_stems": [
+          "甲",
+          "丙",
+          "戊"
+        ],
+        "keywords": [
+          "initiative",
+          "courage",
+          "leadership",
+          "spring forest",
+          "ambition"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 4,
+        "chinese": "卯",
+        "korean": "묘",
+        "korean_romanized": "myo",
+        "pinyin": "mǎo",
+        "element": "wood",
+        "yin_yang_polar": "yin",
+        "yin_yang_operational": "yin",
+        "zodiac": "rabbit",
+        "hour": "05:00–07:00",
+        "lunar_month": 2,
+        "solar_month": "mid-spring (chunfen)",
+        "season": "spring",
+        "direction": "east",
+        "hidden_stems": [
+          "乙"
+        ],
+        "keywords": [
+          "gentleness",
+          "diplomacy",
+          "growth in detail",
+          "soft persistence",
+          "beauty"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 5,
+        "chinese": "辰",
+        "korean": "진",
+        "korean_romanized": "jin",
+        "pinyin": "chén",
+        "element": "earth",
+        "yin_yang_polar": "yang",
+        "yin_yang_operational": "yang",
+        "zodiac": "dragon",
+        "hour": "07:00–09:00",
+        "lunar_month": 3,
+        "solar_month": "late spring (qingming)",
+        "season": "spring to summer",
+        "direction": "east-southeast",
+        "hidden_stems": [
+          "戊",
+          "乙",
+          "癸"
+        ],
+        "keywords": [
+          "transformation",
+          "ambition",
+          "magical thinking",
+          "storage of water",
+          "vision"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 6,
+        "chinese": "巳",
+        "korean": "사",
+        "korean_romanized": "sa",
+        "pinyin": "sì",
+        "element": "fire",
+        "yin_yang_polar": "yin",
+        "yin_yang_operational": "yang",
+        "zodiac": "snake",
+        "hour": "09:00–11:00",
+        "lunar_month": 4,
+        "solar_month": "early summer (lixia)",
+        "season": "summer",
+        "direction": "south-southeast",
+        "hidden_stems": [
+          "丙",
+          "戊",
+          "庚"
+        ],
+        "keywords": [
+          "wisdom",
+          "subtlety",
+          "concentrated heat",
+          "strategic",
+          "deep insight"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 7,
+        "chinese": "午",
+        "korean": "오",
+        "korean_romanized": "o",
+        "pinyin": "wǔ",
+        "element": "fire",
+        "yin_yang_polar": "yang",
+        "yin_yang_operational": "yin",
+        "zodiac": "horse",
+        "hour": "11:00–13:00",
+        "lunar_month": 5,
+        "solar_month": "summer solstice (xiazhi)",
+        "season": "summer",
+        "direction": "south",
+        "hidden_stems": [
+          "丁",
+          "己"
+        ],
+        "keywords": [
+          "passion",
+          "freedom",
+          "movement",
+          "peak yang",
+          "sociable"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 8,
+        "chinese": "未",
+        "korean": "미",
+        "korean_romanized": "mi",
+        "pinyin": "wèi",
+        "element": "earth",
+        "yin_yang_polar": "yin",
+        "yin_yang_operational": "yin",
+        "zodiac": "sheep/goat",
+        "hour": "13:00–15:00",
+        "lunar_month": 6,
+        "solar_month": "late summer",
+        "season": "summer to autumn",
+        "direction": "south-southwest",
+        "hidden_stems": [
+          "己",
+          "丁",
+          "乙"
+        ],
+        "keywords": [
+          "gentleness",
+          "harvest",
+          "domestic",
+          "creative",
+          "warm earth"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 9,
+        "chinese": "申",
+        "korean": "신",
+        "korean_romanized": "sin",
+        "pinyin": "shēn",
+        "element": "metal",
+        "yin_yang_polar": "yang",
+        "yin_yang_operational": "yang",
+        "zodiac": "monkey",
+        "hour": "15:00–17:00",
+        "lunar_month": 7,
+        "solar_month": "early autumn (liqiu)",
+        "season": "autumn",
+        "direction": "west-southwest",
+        "hidden_stems": [
+          "庚",
+          "壬",
+          "戊"
+        ],
+        "keywords": [
+          "cleverness",
+          "agility",
+          "innovation",
+          "tools",
+          "strategy"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 10,
+        "chinese": "酉",
+        "korean": "유",
+        "korean_romanized": "yu",
+        "pinyin": "yǒu",
+        "element": "metal",
+        "yin_yang_polar": "yin",
+        "yin_yang_operational": "yin",
+        "zodiac": "rooster",
+        "hour": "17:00–19:00",
+        "lunar_month": 8,
+        "solar_month": "mid-autumn (qiufen)",
+        "season": "autumn",
+        "direction": "west",
+        "hidden_stems": [
+          "辛"
+        ],
+        "keywords": [
+          "precision",
+          "discipline",
+          "appearance",
+          "punctuality",
+          "discernment"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 11,
+        "chinese": "戌",
+        "korean": "술",
+        "korean_romanized": "sul",
+        "pinyin": "xū",
+        "element": "earth",
+        "yin_yang_polar": "yang",
+        "yin_yang_operational": "yang",
+        "zodiac": "dog",
+        "hour": "19:00–21:00",
+        "lunar_month": 9,
+        "solar_month": "late autumn",
+        "season": "autumn to winter",
+        "direction": "west-northwest",
+        "hidden_stems": [
+          "戊",
+          "辛",
+          "丁"
+        ],
+        "keywords": [
+          "loyalty",
+          "guard",
+          "tradition",
+          "warmth retained",
+          "ethics"
+        ]
+      },
+      {
+        "type": "earthly_branch",
+        "id": 12,
+        "chinese": "亥",
+        "korean": "해",
+        "korean_romanized": "hae",
+        "pinyin": "hài",
+        "element": "water",
+        "yin_yang_polar": "yin",
+        "yin_yang_operational": "yang",
+        "zodiac": "pig",
+        "hour": "21:00–23:00",
+        "lunar_month": 10,
+        "solar_month": "early winter (lidong)",
+        "season": "winter",
+        "direction": "north-northwest",
+        "hidden_stems": [
+          "壬",
+          "甲"
+        ],
+        "keywords": [
+          "sincerity",
+          "generosity",
+          "indulgence",
+          "deep flow",
+          "honest"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "type": "element",
+        "id": "wood",
+        "chinese": "木",
+        "korean": "목",
+        "korean_romanized": "mok",
+        "season": "spring",
+        "direction": "east",
+        "color": "green/blue",
+        "organ_yin": "liver",
+        "organ_yang": "gallbladder",
+        "generates": "fire",
+        "controls": "earth",
+        "generated_by": "water",
+        "controlled_by": "metal",
+        "stems": [
+          "甲",
+          "乙"
+        ],
+        "branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "type": "element",
+        "id": "fire",
+        "chinese": "火",
+        "korean": "화",
+        "korean_romanized": "hwa",
+        "season": "summer",
+        "direction": "south",
+        "color": "red",
+        "organ_yin": "heart",
+        "organ_yang": "small intestine",
+        "generates": "earth",
+        "controls": "metal",
+        "generated_by": "wood",
+        "controlled_by": "water",
+        "stems": [
+          "丙",
+          "丁"
+        ],
+        "branches": [
+          "巳",
+          "午"
+        ]
+      },
+      {
+        "type": "element",
+        "id": "earth",
+        "chinese": "土",
+        "korean": "토",
+        "korean_romanized": "to",
+        "season": "late summer / transitions",
+        "direction": "center",
+        "color": "yellow/brown",
+        "organ_yin": "spleen",
+        "organ_yang": "stomach",
+        "generates": "metal",
+        "controls": "water",
+        "generated_by": "fire",
+        "controlled_by": "wood",
+        "stems": [
+          "戊",
+          "己"
+        ],
+        "branches": [
+          "辰",
+          "未",
+          "戌",
+          "丑"
+        ]
+      },
+      {
+        "type": "element",
+        "id": "metal",
+        "chinese": "金",
+        "korean": "금",
+        "korean_romanized": "geum",
+        "season": "autumn",
+        "direction": "west",
+        "color": "white/silver",
+        "organ_yin": "lung",
+        "organ_yang": "large intestine",
+        "generates": "water",
+        "controls": "wood",
+        "generated_by": "earth",
+        "controlled_by": "fire",
+        "stems": [
+          "庚",
+          "辛"
+        ],
+        "branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "type": "element",
+        "id": "water",
+        "chinese": "水",
+        "korean": "수",
+        "korean_romanized": "su",
+        "season": "winter",
+        "direction": "north",
+        "color": "black/dark blue",
+        "organ_yin": "kidney",
+        "organ_yang": "bladder",
+        "generates": "wood",
+        "controls": "fire",
+        "generated_by": "metal",
+        "controlled_by": "earth",
+        "stems": [
+          "壬",
+          "癸"
+        ],
+        "branches": [
+          "亥",
+          "子"
+        ]
+      }
+    ],
+    "ten_gods": [
+      {
+        "type": "ten_god",
+        "id": "bi_jian",
+        "chinese": "比肩",
+        "korean": "비견",
+        "korean_romanized": "bi-gyeon",
+        "relation_to_day_master": "same element, same polarity as Day Master",
+        "category": "self / peers",
+        "keywords": [
+          "siblings",
+          "peers",
+          "equals",
+          "competition",
+          "independence"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "jie_cai",
+        "chinese": "劫財",
+        "korean": "겁재",
+        "korean_romanized": "geop-jae",
+        "relation_to_day_master": "same element, opposite polarity to Day Master",
+        "category": "self / rivals",
+        "keywords": [
+          "rival",
+          "robbery of wealth",
+          "ambition",
+          "competition",
+          "drive"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "shi_shen",
+        "chinese": "食神",
+        "korean": "식신",
+        "korean_romanized": "sik-sin",
+        "relation_to_day_master": "Day Master produces; same polarity",
+        "category": "output / expression",
+        "keywords": [
+          "expression",
+          "enjoyment",
+          "creativity",
+          "talent",
+          "nourishment"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "shang_guan",
+        "chinese": "傷官",
+        "korean": "상관",
+        "korean_romanized": "sang-gwan",
+        "relation_to_day_master": "Day Master produces; opposite polarity",
+        "category": "output / unconventional expression",
+        "keywords": [
+          "genius",
+          "rebellion",
+          "innovation",
+          "talent that breaks rules",
+          "critique"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "pian_cai",
+        "chinese": "偏財",
+        "korean": "편재",
+        "korean_romanized": "pyeon-jae",
+        "relation_to_day_master": "Day Master controls; same polarity",
+        "category": "wealth / unstable",
+        "keywords": [
+          "wealth in motion",
+          "speculation",
+          "opportunity",
+          "generosity",
+          "deal-making"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "zheng_cai",
+        "chinese": "正財",
+        "korean": "정재",
+        "korean_romanized": "jeong-jae",
+        "relation_to_day_master": "Day Master controls; opposite polarity",
+        "category": "wealth / stable",
+        "keywords": [
+          "earned wealth",
+          "salary",
+          "spouse (classically, wife)",
+          "steady",
+          "careful"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "qi_sha",
+        "chinese": "七殺",
+        "korean": "편관",
+        "korean_romanized": "pyeon-gwan",
+        "relation_to_day_master": "controls Day Master; same polarity",
+        "category": "authority / harsh",
+        "keywords": [
+          "power",
+          "discipline",
+          "challenge",
+          "warrior energy",
+          "hardship"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "zheng_guan",
+        "chinese": "正官",
+        "korean": "정관",
+        "korean_romanized": "jeong-gwan",
+        "relation_to_day_master": "controls Day Master; opposite polarity",
+        "category": "authority / proper",
+        "keywords": [
+          "proper authority",
+          "responsibility",
+          "career",
+          "spouse (classically, husband)",
+          "honor"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "pian_yin",
+        "chinese": "偏印",
+        "korean": "편인",
+        "korean_romanized": "pyeon-in",
+        "relation_to_day_master": "produces Day Master; same polarity",
+        "category": "resources / unconventional",
+        "keywords": [
+          "intuition",
+          "occult learning",
+          "stepmother",
+          "isolation",
+          "deep study"
+        ]
+      },
+      {
+        "type": "ten_god",
+        "id": "zheng_yin",
+        "chinese": "正印",
+        "korean": "정인",
+        "korean_romanized": "jeong-in",
+        "relation_to_day_master": "produces Day Master; opposite polarity",
+        "category": "resources / nourishing",
+        "keywords": [
+          "mother",
+          "education",
+          "support",
+          "tradition",
+          "knowledge"
+        ]
+      }
+    ],
+    "twelve_stages": [
+      {
+        "type": "life_stage",
+        "id": 1,
+        "chinese": "長生",
+        "korean": "장생",
+        "korean_romanized": "jang-saeng",
+        "english": "Long Life / Birth",
+        "phase": "newborn",
+        "keywords": [
+          "birth",
+          "fresh start",
+          "potential",
+          "innocence",
+          "support"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 2,
+        "chinese": "沐浴",
+        "korean": "목욕",
+        "korean_romanized": "mok-yok",
+        "english": "Bathing / Cleansing",
+        "phase": "infant bathing",
+        "keywords": [
+          "vulnerability",
+          "indulgence",
+          "temptation",
+          "exposed",
+          "instability"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 3,
+        "chinese": "冠帶",
+        "korean": "관대",
+        "korean_romanized": "gwan-dae",
+        "english": "Coming of Age / Capping",
+        "phase": "adolescence",
+        "keywords": [
+          "ambition",
+          "self-assertion",
+          "uniform",
+          "pride",
+          "initiation"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 4,
+        "chinese": "建祿",
+        "korean": "건록",
+        "korean_romanized": "geon-rok",
+        "english": "Establishing Salary / Prosperity",
+        "phase": "young adult professional",
+        "keywords": [
+          "stability",
+          "career foundation",
+          "competence",
+          "independence",
+          "reward"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 5,
+        "chinese": "帝旺",
+        "korean": "제왕",
+        "korean_romanized": "je-wang",
+        "english": "Emperor's Peak / Maximum Power",
+        "phase": "peak of life",
+        "keywords": [
+          "peak",
+          "authority",
+          "fullness",
+          "command",
+          "danger of decline"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 6,
+        "chinese": "衰",
+        "korean": "쇠",
+        "korean_romanized": "soe",
+        "english": "Decline",
+        "phase": "first weakening",
+        "keywords": [
+          "fatigue",
+          "first wane",
+          "wisdom of decline",
+          "softening",
+          "maturity"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 7,
+        "chinese": "病",
+        "korean": "병",
+        "korean_romanized": "byeong",
+        "english": "Illness",
+        "phase": "sickness",
+        "keywords": [
+          "vulnerability",
+          "sensitivity",
+          "compassion",
+          "introspection",
+          "weakness"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 8,
+        "chinese": "死",
+        "korean": "사",
+        "korean_romanized": "sa",
+        "english": "Death",
+        "phase": "stillness",
+        "keywords": [
+          "stillness",
+          "philosophical",
+          "withdrawal",
+          "no force",
+          "depth"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 9,
+        "chinese": "墓",
+        "korean": "묘",
+        "korean_romanized": "myo",
+        "english": "Tomb / Storage",
+        "phase": "burial / storehouse",
+        "keywords": [
+          "storage",
+          "preservation",
+          "memory",
+          "secrecy",
+          "inheritance"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 10,
+        "chinese": "絕",
+        "korean": "절",
+        "korean_romanized": "jeol",
+        "english": "Extinction / Severance",
+        "phase": "between worlds",
+        "keywords": [
+          "void",
+          "letting go",
+          "transition",
+          "endings",
+          "rebirth potential"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 11,
+        "chinese": "胎",
+        "korean": "태",
+        "korean_romanized": "tae",
+        "english": "Embryo / Conception",
+        "phase": "conception",
+        "keywords": [
+          "new conception",
+          "hidden start",
+          "fragile",
+          "potential",
+          "gestation"
+        ]
+      },
+      {
+        "type": "life_stage",
+        "id": 12,
+        "chinese": "養",
+        "korean": "양",
+        "korean_romanized": "yang",
+        "english": "Nurturance / Womb",
+        "phase": "gestation",
+        "keywords": [
+          "growth in safety",
+          "nourishment",
+          "preparation",
+          "patience",
+          "almost born"
+        ]
+      }
+    ],
+    "sixty_jiazi": [
+      {
+        "id": 1,
+        "stem": "甲",
+        "branch": "子",
+        "pillar": "甲子",
+        "stem_element": "wood",
+        "stem_yin_yang": "yang",
+        "branch_element": "water",
+        "zodiac": "rat"
+      },
+      {
+        "id": 2,
+        "stem": "乙",
+        "branch": "丑",
+        "pillar": "乙丑",
+        "stem_element": "wood",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "ox"
+      },
+      {
+        "id": 3,
+        "stem": "丙",
+        "branch": "寅",
+        "pillar": "丙寅",
+        "stem_element": "fire",
+        "stem_yin_yang": "yang",
+        "branch_element": "wood",
+        "zodiac": "tiger"
+      },
+      {
+        "id": 4,
+        "stem": "丁",
+        "branch": "卯",
+        "pillar": "丁卯",
+        "stem_element": "fire",
+        "stem_yin_yang": "yin",
+        "branch_element": "wood",
+        "zodiac": "rabbit"
+      },
+      {
+        "id": 5,
+        "stem": "戊",
+        "branch": "辰",
+        "pillar": "戊辰",
+        "stem_element": "earth",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dragon"
+      },
+      {
+        "id": 6,
+        "stem": "己",
+        "branch": "巳",
+        "pillar": "己巳",
+        "stem_element": "earth",
+        "stem_yin_yang": "yin",
+        "branch_element": "fire",
+        "zodiac": "snake"
+      },
+      {
+        "id": 7,
+        "stem": "庚",
+        "branch": "午",
+        "pillar": "庚午",
+        "stem_element": "metal",
+        "stem_yin_yang": "yang",
+        "branch_element": "fire",
+        "zodiac": "horse"
+      },
+      {
+        "id": 8,
+        "stem": "辛",
+        "branch": "未",
+        "pillar": "辛未",
+        "stem_element": "metal",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "sheep/goat"
+      },
+      {
+        "id": 9,
+        "stem": "壬",
+        "branch": "申",
+        "pillar": "壬申",
+        "stem_element": "water",
+        "stem_yin_yang": "yang",
+        "branch_element": "metal",
+        "zodiac": "monkey"
+      },
+      {
+        "id": 10,
+        "stem": "癸",
+        "branch": "酉",
+        "pillar": "癸酉",
+        "stem_element": "water",
+        "stem_yin_yang": "yin",
+        "branch_element": "metal",
+        "zodiac": "rooster"
+      },
+      {
+        "id": 11,
+        "stem": "甲",
+        "branch": "戌",
+        "pillar": "甲戌",
+        "stem_element": "wood",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dog"
+      },
+      {
+        "id": 12,
+        "stem": "乙",
+        "branch": "亥",
+        "pillar": "乙亥",
+        "stem_element": "wood",
+        "stem_yin_yang": "yin",
+        "branch_element": "water",
+        "zodiac": "pig"
+      },
+      {
+        "id": 13,
+        "stem": "丙",
+        "branch": "子",
+        "pillar": "丙子",
+        "stem_element": "fire",
+        "stem_yin_yang": "yang",
+        "branch_element": "water",
+        "zodiac": "rat"
+      },
+      {
+        "id": 14,
+        "stem": "丁",
+        "branch": "丑",
+        "pillar": "丁丑",
+        "stem_element": "fire",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "ox"
+      },
+      {
+        "id": 15,
+        "stem": "戊",
+        "branch": "寅",
+        "pillar": "戊寅",
+        "stem_element": "earth",
+        "stem_yin_yang": "yang",
+        "branch_element": "wood",
+        "zodiac": "tiger"
+      },
+      {
+        "id": 16,
+        "stem": "己",
+        "branch": "卯",
+        "pillar": "己卯",
+        "stem_element": "earth",
+        "stem_yin_yang": "yin",
+        "branch_element": "wood",
+        "zodiac": "rabbit"
+      },
+      {
+        "id": 17,
+        "stem": "庚",
+        "branch": "辰",
+        "pillar": "庚辰",
+        "stem_element": "metal",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dragon"
+      },
+      {
+        "id": 18,
+        "stem": "辛",
+        "branch": "巳",
+        "pillar": "辛巳",
+        "stem_element": "metal",
+        "stem_yin_yang": "yin",
+        "branch_element": "fire",
+        "zodiac": "snake"
+      },
+      {
+        "id": 19,
+        "stem": "壬",
+        "branch": "午",
+        "pillar": "壬午",
+        "stem_element": "water",
+        "stem_yin_yang": "yang",
+        "branch_element": "fire",
+        "zodiac": "horse"
+      },
+      {
+        "id": 20,
+        "stem": "癸",
+        "branch": "未",
+        "pillar": "癸未",
+        "stem_element": "water",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "sheep/goat"
+      },
+      {
+        "id": 21,
+        "stem": "甲",
+        "branch": "申",
+        "pillar": "甲申",
+        "stem_element": "wood",
+        "stem_yin_yang": "yang",
+        "branch_element": "metal",
+        "zodiac": "monkey"
+      },
+      {
+        "id": 22,
+        "stem": "乙",
+        "branch": "酉",
+        "pillar": "乙酉",
+        "stem_element": "wood",
+        "stem_yin_yang": "yin",
+        "branch_element": "metal",
+        "zodiac": "rooster"
+      },
+      {
+        "id": 23,
+        "stem": "丙",
+        "branch": "戌",
+        "pillar": "丙戌",
+        "stem_element": "fire",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dog"
+      },
+      {
+        "id": 24,
+        "stem": "丁",
+        "branch": "亥",
+        "pillar": "丁亥",
+        "stem_element": "fire",
+        "stem_yin_yang": "yin",
+        "branch_element": "water",
+        "zodiac": "pig"
+      },
+      {
+        "id": 25,
+        "stem": "戊",
+        "branch": "子",
+        "pillar": "戊子",
+        "stem_element": "earth",
+        "stem_yin_yang": "yang",
+        "branch_element": "water",
+        "zodiac": "rat"
+      },
+      {
+        "id": 26,
+        "stem": "己",
+        "branch": "丑",
+        "pillar": "己丑",
+        "stem_element": "earth",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "ox"
+      },
+      {
+        "id": 27,
+        "stem": "庚",
+        "branch": "寅",
+        "pillar": "庚寅",
+        "stem_element": "metal",
+        "stem_yin_yang": "yang",
+        "branch_element": "wood",
+        "zodiac": "tiger"
+      },
+      {
+        "id": 28,
+        "stem": "辛",
+        "branch": "卯",
+        "pillar": "辛卯",
+        "stem_element": "metal",
+        "stem_yin_yang": "yin",
+        "branch_element": "wood",
+        "zodiac": "rabbit"
+      },
+      {
+        "id": 29,
+        "stem": "壬",
+        "branch": "辰",
+        "pillar": "壬辰",
+        "stem_element": "water",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dragon"
+      },
+      {
+        "id": 30,
+        "stem": "癸",
+        "branch": "巳",
+        "pillar": "癸巳",
+        "stem_element": "water",
+        "stem_yin_yang": "yin",
+        "branch_element": "fire",
+        "zodiac": "snake"
+      },
+      {
+        "id": 31,
+        "stem": "甲",
+        "branch": "午",
+        "pillar": "甲午",
+        "stem_element": "wood",
+        "stem_yin_yang": "yang",
+        "branch_element": "fire",
+        "zodiac": "horse"
+      },
+      {
+        "id": 32,
+        "stem": "乙",
+        "branch": "未",
+        "pillar": "乙未",
+        "stem_element": "wood",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "sheep/goat"
+      },
+      {
+        "id": 33,
+        "stem": "丙",
+        "branch": "申",
+        "pillar": "丙申",
+        "stem_element": "fire",
+        "stem_yin_yang": "yang",
+        "branch_element": "metal",
+        "zodiac": "monkey"
+      },
+      {
+        "id": 34,
+        "stem": "丁",
+        "branch": "酉",
+        "pillar": "丁酉",
+        "stem_element": "fire",
+        "stem_yin_yang": "yin",
+        "branch_element": "metal",
+        "zodiac": "rooster"
+      },
+      {
+        "id": 35,
+        "stem": "戊",
+        "branch": "戌",
+        "pillar": "戊戌",
+        "stem_element": "earth",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dog"
+      },
+      {
+        "id": 36,
+        "stem": "己",
+        "branch": "亥",
+        "pillar": "己亥",
+        "stem_element": "earth",
+        "stem_yin_yang": "yin",
+        "branch_element": "water",
+        "zodiac": "pig"
+      },
+      {
+        "id": 37,
+        "stem": "庚",
+        "branch": "子",
+        "pillar": "庚子",
+        "stem_element": "metal",
+        "stem_yin_yang": "yang",
+        "branch_element": "water",
+        "zodiac": "rat"
+      },
+      {
+        "id": 38,
+        "stem": "辛",
+        "branch": "丑",
+        "pillar": "辛丑",
+        "stem_element": "metal",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "ox"
+      },
+      {
+        "id": 39,
+        "stem": "壬",
+        "branch": "寅",
+        "pillar": "壬寅",
+        "stem_element": "water",
+        "stem_yin_yang": "yang",
+        "branch_element": "wood",
+        "zodiac": "tiger"
+      },
+      {
+        "id": 40,
+        "stem": "癸",
+        "branch": "卯",
+        "pillar": "癸卯",
+        "stem_element": "water",
+        "stem_yin_yang": "yin",
+        "branch_element": "wood",
+        "zodiac": "rabbit"
+      },
+      {
+        "id": 41,
+        "stem": "甲",
+        "branch": "辰",
+        "pillar": "甲辰",
+        "stem_element": "wood",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dragon"
+      },
+      {
+        "id": 42,
+        "stem": "乙",
+        "branch": "巳",
+        "pillar": "乙巳",
+        "stem_element": "wood",
+        "stem_yin_yang": "yin",
+        "branch_element": "fire",
+        "zodiac": "snake"
+      },
+      {
+        "id": 43,
+        "stem": "丙",
+        "branch": "午",
+        "pillar": "丙午",
+        "stem_element": "fire",
+        "stem_yin_yang": "yang",
+        "branch_element": "fire",
+        "zodiac": "horse"
+      },
+      {
+        "id": 44,
+        "stem": "丁",
+        "branch": "未",
+        "pillar": "丁未",
+        "stem_element": "fire",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "sheep/goat"
+      },
+      {
+        "id": 45,
+        "stem": "戊",
+        "branch": "申",
+        "pillar": "戊申",
+        "stem_element": "earth",
+        "stem_yin_yang": "yang",
+        "branch_element": "metal",
+        "zodiac": "monkey"
+      },
+      {
+        "id": 46,
+        "stem": "己",
+        "branch": "酉",
+        "pillar": "己酉",
+        "stem_element": "earth",
+        "stem_yin_yang": "yin",
+        "branch_element": "metal",
+        "zodiac": "rooster"
+      },
+      {
+        "id": 47,
+        "stem": "庚",
+        "branch": "戌",
+        "pillar": "庚戌",
+        "stem_element": "metal",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dog"
+      },
+      {
+        "id": 48,
+        "stem": "辛",
+        "branch": "亥",
+        "pillar": "辛亥",
+        "stem_element": "metal",
+        "stem_yin_yang": "yin",
+        "branch_element": "water",
+        "zodiac": "pig"
+      },
+      {
+        "id": 49,
+        "stem": "壬",
+        "branch": "子",
+        "pillar": "壬子",
+        "stem_element": "water",
+        "stem_yin_yang": "yang",
+        "branch_element": "water",
+        "zodiac": "rat"
+      },
+      {
+        "id": 50,
+        "stem": "癸",
+        "branch": "丑",
+        "pillar": "癸丑",
+        "stem_element": "water",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "ox"
+      },
+      {
+        "id": 51,
+        "stem": "甲",
+        "branch": "寅",
+        "pillar": "甲寅",
+        "stem_element": "wood",
+        "stem_yin_yang": "yang",
+        "branch_element": "wood",
+        "zodiac": "tiger"
+      },
+      {
+        "id": 52,
+        "stem": "乙",
+        "branch": "卯",
+        "pillar": "乙卯",
+        "stem_element": "wood",
+        "stem_yin_yang": "yin",
+        "branch_element": "wood",
+        "zodiac": "rabbit"
+      },
+      {
+        "id": 53,
+        "stem": "丙",
+        "branch": "辰",
+        "pillar": "丙辰",
+        "stem_element": "fire",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dragon"
+      },
+      {
+        "id": 54,
+        "stem": "丁",
+        "branch": "巳",
+        "pillar": "丁巳",
+        "stem_element": "fire",
+        "stem_yin_yang": "yin",
+        "branch_element": "fire",
+        "zodiac": "snake"
+      },
+      {
+        "id": 55,
+        "stem": "戊",
+        "branch": "午",
+        "pillar": "戊午",
+        "stem_element": "earth",
+        "stem_yin_yang": "yang",
+        "branch_element": "fire",
+        "zodiac": "horse"
+      },
+      {
+        "id": 56,
+        "stem": "己",
+        "branch": "未",
+        "pillar": "己未",
+        "stem_element": "earth",
+        "stem_yin_yang": "yin",
+        "branch_element": "earth",
+        "zodiac": "sheep/goat"
+      },
+      {
+        "id": 57,
+        "stem": "庚",
+        "branch": "申",
+        "pillar": "庚申",
+        "stem_element": "metal",
+        "stem_yin_yang": "yang",
+        "branch_element": "metal",
+        "zodiac": "monkey"
+      },
+      {
+        "id": 58,
+        "stem": "辛",
+        "branch": "酉",
+        "pillar": "辛酉",
+        "stem_element": "metal",
+        "stem_yin_yang": "yin",
+        "branch_element": "metal",
+        "zodiac": "rooster"
+      },
+      {
+        "id": 59,
+        "stem": "壬",
+        "branch": "戌",
+        "pillar": "壬戌",
+        "stem_element": "water",
+        "stem_yin_yang": "yang",
+        "branch_element": "earth",
+        "zodiac": "dog"
+      },
+      {
+        "id": 60,
+        "stem": "癸",
+        "branch": "亥",
+        "pillar": "癸亥",
+        "stem_element": "water",
+        "stem_yin_yang": "yin",
+        "branch_element": "water",
+        "zodiac": "pig"
+      }
+    ],
+    "solar_terms": [
+      {
+        "type": "solar_term",
+        "id": 1,
+        "chinese": "立春",
+        "korean": "입춘",
+        "korean_romanized": "ip-chun",
+        "english": "Beginning of Spring",
+        "approx_date_gregorian": "Feb 3–5",
+        "branch_marked": "寅"
+      },
+      {
+        "type": "solar_term",
+        "id": 2,
+        "chinese": "雨水",
+        "korean": "우수",
+        "korean_romanized": "u-su",
+        "english": "Rain Water",
+        "approx_date_gregorian": "Feb 18–20",
+        "branch_marked": "寅 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 3,
+        "chinese": "驚蟄",
+        "korean": "경칩",
+        "korean_romanized": "gyeong-chip",
+        "english": "Awakening of Insects",
+        "approx_date_gregorian": "Mar 5–7",
+        "branch_marked": "卯"
+      },
+      {
+        "type": "solar_term",
+        "id": 4,
+        "chinese": "春分",
+        "korean": "춘분",
+        "korean_romanized": "chun-bun",
+        "english": "Spring Equinox",
+        "approx_date_gregorian": "Mar 20–22",
+        "branch_marked": "卯 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 5,
+        "chinese": "清明",
+        "korean": "청명",
+        "korean_romanized": "cheong-myeong",
+        "english": "Pure Brightness",
+        "approx_date_gregorian": "Apr 4–6",
+        "branch_marked": "辰"
+      },
+      {
+        "type": "solar_term",
+        "id": 6,
+        "chinese": "穀雨",
+        "korean": "곡우",
+        "korean_romanized": "gok-u",
+        "english": "Grain Rain",
+        "approx_date_gregorian": "Apr 19–21",
+        "branch_marked": "辰 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 7,
+        "chinese": "立夏",
+        "korean": "입하",
+        "korean_romanized": "ip-ha",
+        "english": "Beginning of Summer",
+        "approx_date_gregorian": "May 5–7",
+        "branch_marked": "巳"
+      },
+      {
+        "type": "solar_term",
+        "id": 8,
+        "chinese": "小滿",
+        "korean": "소만",
+        "korean_romanized": "so-man",
+        "english": "Grain Buds",
+        "approx_date_gregorian": "May 20–22",
+        "branch_marked": "巳 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 9,
+        "chinese": "芒種",
+        "korean": "망종",
+        "korean_romanized": "mang-jong",
+        "english": "Grain in Ear",
+        "approx_date_gregorian": "Jun 5–7",
+        "branch_marked": "午"
+      },
+      {
+        "type": "solar_term",
+        "id": 10,
+        "chinese": "夏至",
+        "korean": "하지",
+        "korean_romanized": "ha-ji",
+        "english": "Summer Solstice",
+        "approx_date_gregorian": "Jun 21–22",
+        "branch_marked": "午 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 11,
+        "chinese": "小暑",
+        "korean": "소서",
+        "korean_romanized": "so-seo",
+        "english": "Minor Heat",
+        "approx_date_gregorian": "Jul 6–8",
+        "branch_marked": "未"
+      },
+      {
+        "type": "solar_term",
+        "id": 12,
+        "chinese": "大暑",
+        "korean": "대서",
+        "korean_romanized": "dae-seo",
+        "english": "Major Heat",
+        "approx_date_gregorian": "Jul 22–24",
+        "branch_marked": "未 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 13,
+        "chinese": "立秋",
+        "korean": "입추",
+        "korean_romanized": "ip-chu",
+        "english": "Beginning of Autumn",
+        "approx_date_gregorian": "Aug 7–9",
+        "branch_marked": "申"
+      },
+      {
+        "type": "solar_term",
+        "id": 14,
+        "chinese": "處暑",
+        "korean": "처서",
+        "korean_romanized": "cheo-seo",
+        "english": "End of Heat",
+        "approx_date_gregorian": "Aug 22–24",
+        "branch_marked": "申 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 15,
+        "chinese": "白露",
+        "korean": "백로",
+        "korean_romanized": "baek-ro",
+        "english": "White Dew",
+        "approx_date_gregorian": "Sep 7–9",
+        "branch_marked": "酉"
+      },
+      {
+        "type": "solar_term",
+        "id": 16,
+        "chinese": "秋分",
+        "korean": "추분",
+        "korean_romanized": "chu-bun",
+        "english": "Autumn Equinox",
+        "approx_date_gregorian": "Sep 22–24",
+        "branch_marked": "酉 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 17,
+        "chinese": "寒露",
+        "korean": "한로",
+        "korean_romanized": "han-ro",
+        "english": "Cold Dew",
+        "approx_date_gregorian": "Oct 7–9",
+        "branch_marked": "戌"
+      },
+      {
+        "type": "solar_term",
+        "id": 18,
+        "chinese": "霜降",
+        "korean": "상강",
+        "korean_romanized": "sang-gang",
+        "english": "Frost Descends",
+        "approx_date_gregorian": "Oct 23–24",
+        "branch_marked": "戌 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 19,
+        "chinese": "立冬",
+        "korean": "입동",
+        "korean_romanized": "ip-dong",
+        "english": "Beginning of Winter",
+        "approx_date_gregorian": "Nov 7–8",
+        "branch_marked": "亥"
+      },
+      {
+        "type": "solar_term",
+        "id": 20,
+        "chinese": "小雪",
+        "korean": "소설",
+        "korean_romanized": "so-seol",
+        "english": "Minor Snow",
+        "approx_date_gregorian": "Nov 22–23",
+        "branch_marked": "亥 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 21,
+        "chinese": "大雪",
+        "korean": "대설",
+        "korean_romanized": "dae-seol",
+        "english": "Major Snow",
+        "approx_date_gregorian": "Dec 6–8",
+        "branch_marked": "子"
+      },
+      {
+        "type": "solar_term",
+        "id": 22,
+        "chinese": "冬至",
+        "korean": "동지",
+        "korean_romanized": "dong-ji",
+        "english": "Winter Solstice",
+        "approx_date_gregorian": "Dec 21–23",
+        "branch_marked": "子 (mid)"
+      },
+      {
+        "type": "solar_term",
+        "id": 23,
+        "chinese": "小寒",
+        "korean": "소한",
+        "korean_romanized": "so-han",
+        "english": "Minor Cold",
+        "approx_date_gregorian": "Jan 5–7",
+        "branch_marked": "丑"
+      },
+      {
+        "type": "solar_term",
+        "id": 24,
+        "chinese": "大寒",
+        "korean": "대한",
+        "korean_romanized": "dae-han",
+        "english": "Major Cold",
+        "approx_date_gregorian": "Jan 20–21",
+        "branch_marked": "丑 (mid)"
+      }
+    ],
+    "sin_sal": [
+      {
+        "type": "sin_sal",
+        "id": "cheon_eul_gwi_in",
+        "chinese": "天乙貴人",
+        "korean": "천을귀인",
+        "korean_romanized": "cheon-eul gwi-in",
+        "english": "Heavenly Noble Person",
+        "polarity": "auspicious",
+        "category": "noble star (highest)",
+        "trigger_from": "Day Master or Year Stem"
+      },
+      {
+        "type": "sin_sal",
+        "id": "wen_chang_gui_ren",
+        "chinese": "文昌貴人",
+        "korean": "문창귀인",
+        "korean_romanized": "mun-chang gwi-in",
+        "english": "Academic / Literary Star",
+        "polarity": "auspicious",
+        "category": "intellectual",
+        "trigger_from": "Day Stem"
+      },
+      {
+        "type": "sin_sal",
+        "id": "tian_de_gui_ren",
+        "chinese": "天德貴人",
+        "korean": "천덕귀인",
+        "korean_romanized": "cheon-deok gwi-in",
+        "english": "Heavenly Virtue Noble",
+        "polarity": "auspicious",
+        "category": "moral protection",
+        "trigger_from": "Month Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "yi_ma",
+        "chinese": "驛馬",
+        "korean": "역마",
+        "korean_romanized": "yeok-ma",
+        "english": "Travel Horse / Post-Horse",
+        "polarity": "active (neutral)",
+        "category": "movement",
+        "trigger_from": "Year or Day Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "tao_hua",
+        "chinese": "桃花",
+        "korean": "도화",
+        "korean_romanized": "do-hwa",
+        "english": "Peach Blossom",
+        "polarity": "active (mixed)",
+        "category": "attraction / romance",
+        "trigger_from": "Year or Day Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "hua_gai",
+        "chinese": "華蓋",
+        "korean": "화개",
+        "korean_romanized": "hwa-gae",
+        "english": "Canopy / Solitary Artist",
+        "polarity": "mixed",
+        "category": "spiritual / artistic / solitary",
+        "trigger_from": "Year or Day Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "jiang_xing",
+        "chinese": "將星",
+        "korean": "장성",
+        "korean_romanized": "jang-seong",
+        "english": "General Star",
+        "polarity": "auspicious",
+        "category": "leadership / command",
+        "trigger_from": "Year or Day Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "jie_sha",
+        "chinese": "劫煞",
+        "korean": "겁살",
+        "korean_romanized": "geop-sal",
+        "english": "Robbery Star",
+        "polarity": "inauspicious",
+        "category": "loss / theft",
+        "trigger_from": "Year or Day Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "wang_shen",
+        "chinese": "亡神",
+        "korean": "망신",
+        "korean_romanized": "mang-sin",
+        "english": "Disgrace / Loss-of-Self Star",
+        "polarity": "inauspicious",
+        "category": "exposure / scandal",
+        "trigger_from": "Year or Day Branch"
+      },
+      {
+        "type": "sin_sal",
+        "id": "yang_ren",
+        "chinese": "羊刃",
+        "korean": "양인",
+        "korean_romanized": "yang-in",
+        "english": "Sheep Blade / Edge",
+        "polarity": "intense (often inauspicious)",
+        "category": "power / aggression",
+        "trigger_from": "Day Stem"
+      },
+      {
+        "id": "wol_deok_gwi_in",
+        "chinese": "月德貴人",
+        "korean": "월덕귀인",
+        "korean_romanized": "wol_deok_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_ui_seong",
+        "chinese": "天醫星",
+        "korean": "천의성",
+        "korean_romanized": "cheon_ui_seong",
+        "category": "auspicious"
+      },
+      {
+        "id": "hak_dang_gwi_in",
+        "chinese": "學堂貴人",
+        "korean": "학당귀인",
+        "korean_romanized": "hak_dang_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "mun_gok_gwi_in",
+        "chinese": "文曲貴人",
+        "korean": "문곡귀인",
+        "korean_romanized": "mun_gok_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "geum_yeo",
+        "chinese": "金輿",
+        "korean": "금여",
+        "korean_romanized": "geum_yeo",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_ju_gwi_in",
+        "chinese": "天廚貴人",
+        "korean": "천주귀인",
+        "korean_romanized": "cheon_ju_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "bok_seong_gwi_in",
+        "chinese": "福星貴人",
+        "korean": "복성귀인",
+        "korean_romanized": "bok_seong_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_gwan_gwi_in",
+        "chinese": "天官貴人",
+        "korean": "천관귀인",
+        "korean_romanized": "cheon_gwan_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "am_rok",
+        "chinese": "暗祿",
+        "korean": "암록",
+        "korean_romanized": "am_rok",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_ra_ji_mang",
+        "chinese": "天羅地網",
+        "korean": "천라지망",
+        "korean_romanized": "cheon_ra_ji_mang",
+        "category": "inauspicious"
+      },
+      {
+        "id": "baek_ho_sal",
+        "chinese": "白虎殺",
+        "korean": "백호살",
+        "korean_romanized": "baek_ho_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "goe_gang_sal",
+        "chinese": "魁罡殺",
+        "korean": "괴강살",
+        "korean_romanized": "goe_gang_sal",
+        "category": "mixed"
+      },
+      {
+        "id": "cheon_gong",
+        "chinese": "天空",
+        "korean": "천공",
+        "korean_romanized": "cheon_gong",
+        "category": "inauspicious"
+      },
+      {
+        "id": "go_sin",
+        "chinese": "孤辰",
+        "korean": "고신",
+        "korean_romanized": "go_sin",
+        "category": "inauspicious"
+      },
+      {
+        "id": "gwa_suk",
+        "chinese": "寡宿",
+        "korean": "과숙",
+        "korean_romanized": "gwa_suk",
+        "category": "inauspicious"
+      },
+      {
+        "id": "won_jin_sal",
+        "chinese": "怨嗔殺",
+        "korean": "원진살",
+        "korean_romanized": "won_jin_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "gwi_mun_gwan_sal",
+        "chinese": "鬼門關殺",
+        "korean": "귀문관살",
+        "korean_romanized": "gwi_mun_gwan_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "cheon_sal",
+        "chinese": "天殺",
+        "korean": "천살",
+        "korean_romanized": "cheon_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "tang_hwa_sal",
+        "chinese": "湯火殺",
+        "korean": "탕화살",
+        "korean_romanized": "tang_hwa_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "pyeong_du_sal",
+        "chinese": "平頭殺",
+        "korean": "평두살",
+        "korean_romanized": "pyeong_du_sal",
+        "category": "mixed"
+      },
+      {
+        "id": "wol_deok_gwi_in",
+        "chinese": "月德貴人",
+        "korean": "월덕귀인",
+        "korean_romanized": "wol_deok_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_ui_seong",
+        "chinese": "天醫星",
+        "korean": "천의성",
+        "korean_romanized": "cheon_ui_seong",
+        "category": "auspicious"
+      },
+      {
+        "id": "hak_dang_gwi_in",
+        "chinese": "學堂貴人",
+        "korean": "학당귀인",
+        "korean_romanized": "hak_dang_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "mun_gok_gwi_in",
+        "chinese": "文曲貴人",
+        "korean": "문곡귀인",
+        "korean_romanized": "mun_gok_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "geum_yeo",
+        "chinese": "金輿",
+        "korean": "금여",
+        "korean_romanized": "geum_yeo",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_ju_gwi_in",
+        "chinese": "天廚貴人",
+        "korean": "천주귀인",
+        "korean_romanized": "cheon_ju_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "bok_seong_gwi_in",
+        "chinese": "福星貴人",
+        "korean": "복성귀인",
+        "korean_romanized": "bok_seong_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_gwan_gwi_in",
+        "chinese": "天官貴人",
+        "korean": "천관귀인",
+        "korean_romanized": "cheon_gwan_gwi_in",
+        "category": "auspicious"
+      },
+      {
+        "id": "am_rok",
+        "chinese": "暗祿",
+        "korean": "암록",
+        "korean_romanized": "am_rok",
+        "category": "auspicious"
+      },
+      {
+        "id": "cheon_ra_ji_mang",
+        "chinese": "天羅地網",
+        "korean": "천라지망",
+        "korean_romanized": "cheon_ra_ji_mang",
+        "category": "inauspicious"
+      },
+      {
+        "id": "baek_ho_sal",
+        "chinese": "白虎殺",
+        "korean": "백호살",
+        "korean_romanized": "baek_ho_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "goe_gang_sal",
+        "chinese": "魁罡殺",
+        "korean": "괴강살",
+        "korean_romanized": "goe_gang_sal",
+        "category": "mixed"
+      },
+      {
+        "id": "cheon_gong",
+        "chinese": "天空",
+        "korean": "천공",
+        "korean_romanized": "cheon_gong",
+        "category": "inauspicious"
+      },
+      {
+        "id": "go_sin",
+        "chinese": "孤辰",
+        "korean": "고신",
+        "korean_romanized": "go_sin",
+        "category": "inauspicious"
+      },
+      {
+        "id": "gwa_suk",
+        "chinese": "寡宿",
+        "korean": "과숙",
+        "korean_romanized": "gwa_suk",
+        "category": "inauspicious"
+      },
+      {
+        "id": "won_jin_sal",
+        "chinese": "怨嗔殺",
+        "korean": "원진살",
+        "korean_romanized": "won_jin_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "gwi_mun_gwan_sal",
+        "chinese": "鬼門關殺",
+        "korean": "귀문관살",
+        "korean_romanized": "gwi_mun_gwan_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "cheon_sal",
+        "chinese": "天殺",
+        "korean": "천살",
+        "korean_romanized": "cheon_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "tang_hwa_sal",
+        "chinese": "湯火殺",
+        "korean": "탕화살",
+        "korean_romanized": "tang_hwa_sal",
+        "category": "inauspicious"
+      },
+      {
+        "id": "pyeong_du_sal",
+        "chinese": "平頭殺",
+        "korean": "평두살",
+        "korean_romanized": "pyeong_du_sal",
+        "category": "mixed"
+      }
+    ],
+    "relationships_path": "saju/relationships/",
+    "relationships": [
+      {
+        "id": "stem_combinations",
+        "file": "saju/relationships/stem_combinations.md",
+        "subtype": "combination"
+      },
+      {
+        "id": "stem_clashes",
+        "file": "saju/relationships/stem_clashes.md",
+        "subtype": "clash"
+      },
+      {
+        "id": "branch_six_combinations",
+        "file": "saju/relationships/branch_six_combinations.md",
+        "subtype": "combination"
+      },
+      {
+        "id": "branch_three_harmonies",
+        "file": "saju/relationships/branch_three_harmonies.md",
+        "subtype": "three_harmony"
+      },
+      {
+        "id": "branch_seasonal_meetings",
+        "file": "saju/relationships/branch_seasonal_meetings.md",
+        "subtype": "seasonal_meeting"
+      },
+      {
+        "id": "branch_six_clashes",
+        "file": "saju/relationships/branch_six_clashes.md",
+        "subtype": "clash"
+      },
+      {
+        "id": "branch_six_harms",
+        "file": "saju/relationships/branch_six_harms.md",
+        "subtype": "harm"
+      },
+      {
+        "id": "branch_six_breaks",
+        "file": "saju/relationships/branch_six_breaks.md",
+        "subtype": "break"
+      },
+      {
+        "id": "branch_punishments",
+        "file": "saju/relationships/branch_punishments.md",
+        "subtype": "punishment"
+      }
+    ],
+    "pillars_path": "saju/pillars/",
+    "pillars": [
+      {
+        "id": 1,
+        "slug": "01-gap-ja",
+        "chinese": "甲子",
+        "stem": "甲",
+        "branch": "子",
+        "nayin_zh": "海中金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "02-eul-chuk",
+        "chinese": "乙丑",
+        "stem": "乙",
+        "branch": "丑",
+        "nayin_zh": "海中金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "03-byeong-in",
+        "chinese": "丙寅",
+        "stem": "丙",
+        "branch": "寅",
+        "nayin_zh": "爐中火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "04-jeong-myo",
+        "chinese": "丁卯",
+        "stem": "丁",
+        "branch": "卯",
+        "nayin_zh": "爐中火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 5,
+        "slug": "05-mu-jin",
+        "chinese": "戊辰",
+        "stem": "戊",
+        "branch": "辰",
+        "nayin_zh": "大林木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 6,
+        "slug": "06-gi-sa",
+        "chinese": "己巳",
+        "stem": "己",
+        "branch": "巳",
+        "nayin_zh": "大林木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 7,
+        "slug": "07-gyeong-o",
+        "chinese": "庚午",
+        "stem": "庚",
+        "branch": "午",
+        "nayin_zh": "路傍土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 8,
+        "slug": "08-sin-mi",
+        "chinese": "辛未",
+        "stem": "辛",
+        "branch": "未",
+        "nayin_zh": "路傍土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 9,
+        "slug": "09-im-sin",
+        "chinese": "壬申",
+        "stem": "壬",
+        "branch": "申",
+        "nayin_zh": "劍鋒金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 10,
+        "slug": "10-gye-yu",
+        "chinese": "癸酉",
+        "stem": "癸",
+        "branch": "酉",
+        "nayin_zh": "劍鋒金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      {
+        "id": 11,
+        "slug": "11-gap-sul",
+        "chinese": "甲戌",
+        "stem": "甲",
+        "branch": "戌",
+        "nayin_zh": "山頭火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 12,
+        "slug": "12-eul-hae",
+        "chinese": "乙亥",
+        "stem": "乙",
+        "branch": "亥",
+        "nayin_zh": "山頭火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 13,
+        "slug": "13-byeong-ja",
+        "chinese": "丙子",
+        "stem": "丙",
+        "branch": "子",
+        "nayin_zh": "澗下水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 14,
+        "slug": "14-jeong-chuk",
+        "chinese": "丁丑",
+        "stem": "丁",
+        "branch": "丑",
+        "nayin_zh": "澗下水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 15,
+        "slug": "15-mu-in",
+        "chinese": "戊寅",
+        "stem": "戊",
+        "branch": "寅",
+        "nayin_zh": "城頭土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 16,
+        "slug": "16-gi-myo",
+        "chinese": "己卯",
+        "stem": "己",
+        "branch": "卯",
+        "nayin_zh": "城頭土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 17,
+        "slug": "17-gyeong-jin",
+        "chinese": "庚辰",
+        "stem": "庚",
+        "branch": "辰",
+        "nayin_zh": "白蠟金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "18-sin-sa",
+        "chinese": "辛巳",
+        "stem": "辛",
+        "branch": "巳",
+        "nayin_zh": "白蠟金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 19,
+        "slug": "19-im-o",
+        "chinese": "壬午",
+        "stem": "壬",
+        "branch": "午",
+        "nayin_zh": "楊柳木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 20,
+        "slug": "20-gye-mi",
+        "chinese": "癸未",
+        "stem": "癸",
+        "branch": "未",
+        "nayin_zh": "楊柳木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "申",
+          "酉"
+        ]
+      },
+      {
+        "id": 21,
+        "slug": "21-gap-sin",
+        "chinese": "甲申",
+        "stem": "甲",
+        "branch": "申",
+        "nayin_zh": "泉中水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 22,
+        "slug": "22-eul-yu",
+        "chinese": "乙酉",
+        "stem": "乙",
+        "branch": "酉",
+        "nayin_zh": "泉中水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "23-byeong-sul",
+        "chinese": "丙戌",
+        "stem": "丙",
+        "branch": "戌",
+        "nayin_zh": "屋上土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 24,
+        "slug": "24-jeong-hae",
+        "chinese": "丁亥",
+        "stem": "丁",
+        "branch": "亥",
+        "nayin_zh": "屋上土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 25,
+        "slug": "25-mu-ja",
+        "chinese": "戊子",
+        "stem": "戊",
+        "branch": "子",
+        "nayin_zh": "霹靂火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 26,
+        "slug": "26-gi-chuk",
+        "chinese": "己丑",
+        "stem": "己",
+        "branch": "丑",
+        "nayin_zh": "霹靂火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 27,
+        "slug": "27-gyeong-in",
+        "chinese": "庚寅",
+        "stem": "庚",
+        "branch": "寅",
+        "nayin_zh": "松柏木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 28,
+        "slug": "28-sin-myo",
+        "chinese": "辛卯",
+        "stem": "辛",
+        "branch": "卯",
+        "nayin_zh": "松柏木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 29,
+        "slug": "29-im-jin",
+        "chinese": "壬辰",
+        "stem": "壬",
+        "branch": "辰",
+        "nayin_zh": "長流水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 30,
+        "slug": "30-gye-sa",
+        "chinese": "癸巳",
+        "stem": "癸",
+        "branch": "巳",
+        "nayin_zh": "長流水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "午",
+          "未"
+        ]
+      },
+      {
+        "id": 31,
+        "slug": "31-gap-o",
+        "chinese": "甲午",
+        "stem": "甲",
+        "branch": "午",
+        "nayin_zh": "沙中金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 32,
+        "slug": "32-eul-mi",
+        "chinese": "乙未",
+        "stem": "乙",
+        "branch": "未",
+        "nayin_zh": "沙中金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 33,
+        "slug": "33-byeong-sin",
+        "chinese": "丙申",
+        "stem": "丙",
+        "branch": "申",
+        "nayin_zh": "山下火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 34,
+        "slug": "34-jeong-yu",
+        "chinese": "丁酉",
+        "stem": "丁",
+        "branch": "酉",
+        "nayin_zh": "山下火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 35,
+        "slug": "35-mu-sul",
+        "chinese": "戊戌",
+        "stem": "戊",
+        "branch": "戌",
+        "nayin_zh": "平地木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 36,
+        "slug": "36-gi-hae",
+        "chinese": "己亥",
+        "stem": "己",
+        "branch": "亥",
+        "nayin_zh": "平地木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 37,
+        "slug": "37-gyeong-ja",
+        "chinese": "庚子",
+        "stem": "庚",
+        "branch": "子",
+        "nayin_zh": "壁上土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 38,
+        "slug": "38-sin-chuk",
+        "chinese": "辛丑",
+        "stem": "辛",
+        "branch": "丑",
+        "nayin_zh": "壁上土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 39,
+        "slug": "39-im-in",
+        "chinese": "壬寅",
+        "stem": "壬",
+        "branch": "寅",
+        "nayin_zh": "金箔金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 40,
+        "slug": "40-gye-myo",
+        "chinese": "癸卯",
+        "stem": "癸",
+        "branch": "卯",
+        "nayin_zh": "金箔金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "辰",
+          "巳"
+        ]
+      },
+      {
+        "id": 41,
+        "slug": "41-gap-jin",
+        "chinese": "甲辰",
+        "stem": "甲",
+        "branch": "辰",
+        "nayin_zh": "覆燈火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 42,
+        "slug": "42-eul-sa",
+        "chinese": "乙巳",
+        "stem": "乙",
+        "branch": "巳",
+        "nayin_zh": "覆燈火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 43,
+        "slug": "43-byeong-o",
+        "chinese": "丙午",
+        "stem": "丙",
+        "branch": "午",
+        "nayin_zh": "天河水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 44,
+        "slug": "44-jeong-mi",
+        "chinese": "丁未",
+        "stem": "丁",
+        "branch": "未",
+        "nayin_zh": "天河水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 45,
+        "slug": "45-mu-sin",
+        "chinese": "戊申",
+        "stem": "戊",
+        "branch": "申",
+        "nayin_zh": "大驛土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 46,
+        "slug": "46-gi-yu",
+        "chinese": "己酉",
+        "stem": "己",
+        "branch": "酉",
+        "nayin_zh": "大驛土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 47,
+        "slug": "47-gyeong-sul",
+        "chinese": "庚戌",
+        "stem": "庚",
+        "branch": "戌",
+        "nayin_zh": "釵釧金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 48,
+        "slug": "48-sin-hae",
+        "chinese": "辛亥",
+        "stem": "辛",
+        "branch": "亥",
+        "nayin_zh": "釵釧金",
+        "nayin_element": "metal",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 49,
+        "slug": "49-im-ja",
+        "chinese": "壬子",
+        "stem": "壬",
+        "branch": "子",
+        "nayin_zh": "桑柘木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 50,
+        "slug": "50-gye-chuk",
+        "chinese": "癸丑",
+        "stem": "癸",
+        "branch": "丑",
+        "nayin_zh": "桑柘木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "寅",
+          "卯"
+        ]
+      },
+      {
+        "id": 51,
+        "slug": "51-gap-in",
+        "chinese": "甲寅",
+        "stem": "甲",
+        "branch": "寅",
+        "nayin_zh": "大溪水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 52,
+        "slug": "52-eul-myo",
+        "chinese": "乙卯",
+        "stem": "乙",
+        "branch": "卯",
+        "nayin_zh": "大溪水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 53,
+        "slug": "53-byeong-jin",
+        "chinese": "丙辰",
+        "stem": "丙",
+        "branch": "辰",
+        "nayin_zh": "沙中土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 54,
+        "slug": "54-jeong-sa",
+        "chinese": "丁巳",
+        "stem": "丁",
+        "branch": "巳",
+        "nayin_zh": "沙中土",
+        "nayin_element": "earth",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 55,
+        "slug": "55-mu-o",
+        "chinese": "戊午",
+        "stem": "戊",
+        "branch": "午",
+        "nayin_zh": "天上火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 56,
+        "slug": "56-gi-mi",
+        "chinese": "己未",
+        "stem": "己",
+        "branch": "未",
+        "nayin_zh": "天上火",
+        "nayin_element": "fire",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 57,
+        "slug": "57-gyeong-sin",
+        "chinese": "庚申",
+        "stem": "庚",
+        "branch": "申",
+        "nayin_zh": "石榴木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 58,
+        "slug": "58-sin-yu",
+        "chinese": "辛酉",
+        "stem": "辛",
+        "branch": "酉",
+        "nayin_zh": "石榴木",
+        "nayin_element": "wood",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 59,
+        "slug": "59-im-sul",
+        "chinese": "壬戌",
+        "stem": "壬",
+        "branch": "戌",
+        "nayin_zh": "大海水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "id": 60,
+        "slug": "60-gye-hae",
+        "chinese": "癸亥",
+        "stem": "癸",
+        "branch": "亥",
+        "nayin_zh": "大海水",
+        "nayin_element": "water",
+        "empty_branches": [
+          "子",
+          "丑"
+        ]
+      }
+    ],
+    "nayin": [
+      {
+        "pillar_id": 1,
+        "nayin_zh": "海中金",
+        "nayin_ko": "해중금",
+        "nayin_en": "Sea Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 2,
+        "nayin_zh": "海中金",
+        "nayin_ko": "해중금",
+        "nayin_en": "Sea Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 3,
+        "nayin_zh": "爐中火",
+        "nayin_ko": "노중화",
+        "nayin_en": "Furnace Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 4,
+        "nayin_zh": "爐中火",
+        "nayin_ko": "노중화",
+        "nayin_en": "Furnace Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 5,
+        "nayin_zh": "大林木",
+        "nayin_ko": "대림목",
+        "nayin_en": "Great Forest Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 6,
+        "nayin_zh": "大林木",
+        "nayin_ko": "대림목",
+        "nayin_en": "Great Forest Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 7,
+        "nayin_zh": "路傍土",
+        "nayin_ko": "노방토",
+        "nayin_en": "Roadside Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 8,
+        "nayin_zh": "路傍土",
+        "nayin_ko": "노방토",
+        "nayin_en": "Roadside Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 9,
+        "nayin_zh": "劍鋒金",
+        "nayin_ko": "검봉금",
+        "nayin_en": "Sword-Edge Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 10,
+        "nayin_zh": "劍鋒金",
+        "nayin_ko": "검봉금",
+        "nayin_en": "Sword-Edge Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 11,
+        "nayin_zh": "山頭火",
+        "nayin_ko": "산두화",
+        "nayin_en": "Mountainhead Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 12,
+        "nayin_zh": "山頭火",
+        "nayin_ko": "산두화",
+        "nayin_en": "Mountainhead Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 13,
+        "nayin_zh": "澗下水",
+        "nayin_ko": "간하수",
+        "nayin_en": "Valley Stream Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 14,
+        "nayin_zh": "澗下水",
+        "nayin_ko": "간하수",
+        "nayin_en": "Valley Stream Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 15,
+        "nayin_zh": "城頭土",
+        "nayin_ko": "성두토",
+        "nayin_en": "City Wall Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 16,
+        "nayin_zh": "城頭土",
+        "nayin_ko": "성두토",
+        "nayin_en": "City Wall Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 17,
+        "nayin_zh": "白蠟金",
+        "nayin_ko": "백랍금",
+        "nayin_en": "White Wax Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 18,
+        "nayin_zh": "白蠟金",
+        "nayin_ko": "백랍금",
+        "nayin_en": "White Wax Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 19,
+        "nayin_zh": "楊柳木",
+        "nayin_ko": "양류목",
+        "nayin_en": "Willow Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 20,
+        "nayin_zh": "楊柳木",
+        "nayin_ko": "양류목",
+        "nayin_en": "Willow Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 21,
+        "nayin_zh": "泉中水",
+        "nayin_ko": "천중수",
+        "nayin_en": "Spring Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 22,
+        "nayin_zh": "泉中水",
+        "nayin_ko": "천중수",
+        "nayin_en": "Spring Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 23,
+        "nayin_zh": "屋上土",
+        "nayin_ko": "옥상토",
+        "nayin_en": "Rooftop Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 24,
+        "nayin_zh": "屋上土",
+        "nayin_ko": "옥상토",
+        "nayin_en": "Rooftop Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 25,
+        "nayin_zh": "霹靂火",
+        "nayin_ko": "벽력화",
+        "nayin_en": "Thunderbolt Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 26,
+        "nayin_zh": "霹靂火",
+        "nayin_ko": "벽력화",
+        "nayin_en": "Thunderbolt Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 27,
+        "nayin_zh": "松柏木",
+        "nayin_ko": "송백목",
+        "nayin_en": "Pine-Cypress Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 28,
+        "nayin_zh": "松柏木",
+        "nayin_ko": "송백목",
+        "nayin_en": "Pine-Cypress Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 29,
+        "nayin_zh": "長流水",
+        "nayin_ko": "장류수",
+        "nayin_en": "Long-Flowing Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 30,
+        "nayin_zh": "長流水",
+        "nayin_ko": "장류수",
+        "nayin_en": "Long-Flowing Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 31,
+        "nayin_zh": "沙中金",
+        "nayin_ko": "사중금",
+        "nayin_en": "Sand-Buried Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 32,
+        "nayin_zh": "沙中金",
+        "nayin_ko": "사중금",
+        "nayin_en": "Sand-Buried Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 33,
+        "nayin_zh": "山下火",
+        "nayin_ko": "산하화",
+        "nayin_en": "Mountain-Foot Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 34,
+        "nayin_zh": "山下火",
+        "nayin_ko": "산하화",
+        "nayin_en": "Mountain-Foot Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 35,
+        "nayin_zh": "平地木",
+        "nayin_ko": "평지목",
+        "nayin_en": "Plains Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 36,
+        "nayin_zh": "平地木",
+        "nayin_ko": "평지목",
+        "nayin_en": "Plains Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 37,
+        "nayin_zh": "壁上土",
+        "nayin_ko": "벽상토",
+        "nayin_en": "Wall-Top Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 38,
+        "nayin_zh": "壁上土",
+        "nayin_ko": "벽상토",
+        "nayin_en": "Wall-Top Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 39,
+        "nayin_zh": "金箔金",
+        "nayin_ko": "금박금",
+        "nayin_en": "Gold-Leaf Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 40,
+        "nayin_zh": "金箔金",
+        "nayin_ko": "금박금",
+        "nayin_en": "Gold-Leaf Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 41,
+        "nayin_zh": "覆燈火",
+        "nayin_ko": "복등화",
+        "nayin_en": "Covered Lamp Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 42,
+        "nayin_zh": "覆燈火",
+        "nayin_ko": "복등화",
+        "nayin_en": "Covered Lamp Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 43,
+        "nayin_zh": "天河水",
+        "nayin_ko": "천하수",
+        "nayin_en": "Sky-River Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 44,
+        "nayin_zh": "天河水",
+        "nayin_ko": "천하수",
+        "nayin_en": "Sky-River Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 45,
+        "nayin_zh": "大驛土",
+        "nayin_ko": "대역토",
+        "nayin_en": "Highway Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 46,
+        "nayin_zh": "大驛土",
+        "nayin_ko": "대역토",
+        "nayin_en": "Highway Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 47,
+        "nayin_zh": "釵釧金",
+        "nayin_ko": "차천금",
+        "nayin_en": "Hairpin Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 48,
+        "nayin_zh": "釵釧金",
+        "nayin_ko": "차천금",
+        "nayin_en": "Hairpin Metal",
+        "nayin_element": "metal"
+      },
+      {
+        "pillar_id": 49,
+        "nayin_zh": "桑柘木",
+        "nayin_ko": "상자목",
+        "nayin_en": "Mulberry Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 50,
+        "nayin_zh": "桑柘木",
+        "nayin_ko": "상자목",
+        "nayin_en": "Mulberry Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 51,
+        "nayin_zh": "大溪水",
+        "nayin_ko": "대계수",
+        "nayin_en": "Great Stream Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 52,
+        "nayin_zh": "大溪水",
+        "nayin_ko": "대계수",
+        "nayin_en": "Great Stream Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 53,
+        "nayin_zh": "沙中土",
+        "nayin_ko": "사중토",
+        "nayin_en": "Sand Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 54,
+        "nayin_zh": "沙中土",
+        "nayin_ko": "사중토",
+        "nayin_en": "Sand Earth",
+        "nayin_element": "earth"
+      },
+      {
+        "pillar_id": 55,
+        "nayin_zh": "天上火",
+        "nayin_ko": "천상화",
+        "nayin_en": "Heavenly Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 56,
+        "nayin_zh": "天上火",
+        "nayin_ko": "천상화",
+        "nayin_en": "Heavenly Fire",
+        "nayin_element": "fire"
+      },
+      {
+        "pillar_id": 57,
+        "nayin_zh": "石榴木",
+        "nayin_ko": "석류목",
+        "nayin_en": "Pomegranate Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 58,
+        "nayin_zh": "石榴木",
+        "nayin_ko": "석류목",
+        "nayin_en": "Pomegranate Wood",
+        "nayin_element": "wood"
+      },
+      {
+        "pillar_id": 59,
+        "nayin_zh": "大海水",
+        "nayin_ko": "대해수",
+        "nayin_en": "Great Sea Water",
+        "nayin_element": "water"
+      },
+      {
+        "pillar_id": 60,
+        "nayin_zh": "大海水",
+        "nayin_ko": "대해수",
+        "nayin_en": "Great Sea Water",
+        "nayin_element": "water"
+      }
+    ],
+    "empty_branches": [
+      {
+        "pillar_id": 1,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 2,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 3,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 4,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 5,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 6,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 7,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 8,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 9,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 10,
+        "empty_branches_zh": [
+          "戌",
+          "亥"
+        ],
+        "empty_branches_ko": [
+          "sul",
+          "hae"
+        ],
+        "xun_label": "갑자순 (甲子旬) — 戌, 亥 공망"
+      },
+      {
+        "pillar_id": 11,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 12,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 13,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 14,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 15,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 16,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 17,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 18,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 19,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 20,
+        "empty_branches_zh": [
+          "申",
+          "酉"
+        ],
+        "empty_branches_ko": [
+          "sin",
+          "yu"
+        ],
+        "xun_label": "갑술순 (甲戌旬) — 申, 酉 공망"
+      },
+      {
+        "pillar_id": 21,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 22,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 23,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 24,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 25,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 26,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 27,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 28,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 29,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 30,
+        "empty_branches_zh": [
+          "午",
+          "未"
+        ],
+        "empty_branches_ko": [
+          "o",
+          "mi"
+        ],
+        "xun_label": "갑신순 (甲申旬) — 午, 未 공망"
+      },
+      {
+        "pillar_id": 31,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 32,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 33,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 34,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 35,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 36,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 37,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 38,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 39,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 40,
+        "empty_branches_zh": [
+          "辰",
+          "巳"
+        ],
+        "empty_branches_ko": [
+          "jin",
+          "sa"
+        ],
+        "xun_label": "갑오순 (甲午旬) — 辰, 巳 공망"
+      },
+      {
+        "pillar_id": 41,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 42,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 43,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 44,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 45,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 46,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 47,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 48,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 49,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 50,
+        "empty_branches_zh": [
+          "寅",
+          "卯"
+        ],
+        "empty_branches_ko": [
+          "in",
+          "myo"
+        ],
+        "xun_label": "갑진순 (甲辰旬) — 寅, 卯 공망"
+      },
+      {
+        "pillar_id": 51,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 52,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 53,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 54,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 55,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 56,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 57,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 58,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 59,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      },
+      {
+        "pillar_id": 60,
+        "empty_branches_zh": [
+          "子",
+          "丑"
+        ],
+        "empty_branches_ko": [
+          "ja",
+          "chuk"
+        ],
+        "xun_label": "갑인순 (甲寅旬) — 子, 丑 공망"
+      }
+    ],
+    "twelve_stages_lookup": {
+      "gap": {
+        "ja": "沐浴",
+        "chuk": "冠帶",
+        "in": "臨官",
+        "myo": "帝旺",
+        "jin": "衰",
+        "sa": "病",
+        "o": "死",
+        "mi": "墓",
+        "sin": "絕",
+        "yu": "胎",
+        "sul": "養",
+        "hae": "長生"
+      },
+      "eul": {
+        "ja": "病",
+        "chuk": "衰",
+        "in": "帝旺",
+        "myo": "臨官",
+        "jin": "冠帶",
+        "sa": "沐浴",
+        "o": "長生",
+        "mi": "養",
+        "sin": "胎",
+        "yu": "絕",
+        "sul": "墓",
+        "hae": "死"
+      },
+      "byeong": {
+        "ja": "胎",
+        "chuk": "養",
+        "in": "長生",
+        "myo": "沐浴",
+        "jin": "冠帶",
+        "sa": "臨官",
+        "o": "帝旺",
+        "mi": "衰",
+        "sin": "病",
+        "yu": "死",
+        "sul": "墓",
+        "hae": "絕"
+      },
+      "jeong": {
+        "ja": "絕",
+        "chuk": "墓",
+        "in": "死",
+        "myo": "病",
+        "jin": "衰",
+        "sa": "帝旺",
+        "o": "臨官",
+        "mi": "冠帶",
+        "sin": "沐浴",
+        "yu": "長生",
+        "sul": "養",
+        "hae": "胎"
+      },
+      "mu": {
+        "ja": "胎",
+        "chuk": "養",
+        "in": "長生",
+        "myo": "沐浴",
+        "jin": "冠帶",
+        "sa": "臨官",
+        "o": "帝旺",
+        "mi": "衰",
+        "sin": "病",
+        "yu": "死",
+        "sul": "墓",
+        "hae": "絕"
+      },
+      "gi": {
+        "ja": "絕",
+        "chuk": "墓",
+        "in": "死",
+        "myo": "病",
+        "jin": "衰",
+        "sa": "帝旺",
+        "o": "臨官",
+        "mi": "冠帶",
+        "sin": "沐浴",
+        "yu": "長生",
+        "sul": "養",
+        "hae": "胎"
+      },
+      "gyeong": {
+        "ja": "死",
+        "chuk": "墓",
+        "in": "絕",
+        "myo": "胎",
+        "jin": "養",
+        "sa": "長生",
+        "o": "沐浴",
+        "mi": "冠帶",
+        "sin": "臨官",
+        "yu": "帝旺",
+        "sul": "衰",
+        "hae": "病"
+      },
+      "sin": {
+        "ja": "長生",
+        "chuk": "養",
+        "in": "胎",
+        "myo": "絕",
+        "jin": "墓",
+        "sa": "死",
+        "o": "病",
+        "mi": "衰",
+        "sin": "帝旺",
+        "yu": "臨官",
+        "sul": "冠帶",
+        "hae": "沐浴"
+      },
+      "im": {
+        "ja": "帝旺",
+        "chuk": "衰",
+        "in": "病",
+        "myo": "死",
+        "jin": "墓",
+        "sa": "絕",
+        "o": "胎",
+        "mi": "養",
+        "sin": "長生",
+        "yu": "沐浴",
+        "sul": "冠帶",
+        "hae": "臨官"
+      },
+      "gye": {
+        "ja": "臨官",
+        "chuk": "冠帶",
+        "in": "沐浴",
+        "myo": "長生",
+        "jin": "養",
+        "sa": "胎",
+        "o": "絕",
+        "mi": "墓",
+        "sin": "死",
+        "yu": "病",
+        "sul": "衰",
+        "hae": "帝旺"
+      }
+    },
+    "twelve_stages_lookup_file": "saju/twelve_stages_lookup.md",
+    "primers": {
+      "yong_sin_file": "saju/yong_sin.md",
+      "patterns_file": "saju/patterns.md",
+      "dae_un_file": "saju/dae_un.md",
+      "geunmyo_file": "saju/geunmyo.md",
+      "nayin_file": "saju/nayin.md",
+      "empty_branches_file": "saju/empty_branches.md"
+    }
+  },
+  "sources_file": "sources.md"
+}

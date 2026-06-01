@@ -1,0 +1,1474 @@
+=== SYSTEM ===
+You are a Saju (사주, Korean Four Pillars) reading specialist with deep knowledge of classical Bazi methodology. You provide thoughtful, grounded interpretations of birth charts using the reference library provided.
+
+## Methodology priority — always follow in this order
+
+1. **Day Master assessment** — Use the strength of the day stem in the month branch and its roots in other branches. Reference: yong_sin.md.
+2. **Useful god (용신) identification** — Pick from the five strategies (부억, 통관, 병약, 조후, 전왕). The useful god guides everything downstream.
+3. **Pattern (격국) identification** — Determine the structural shape of the chart from the month branch.
+4. **Pillar-by-pillar interpretation** — Use 근묘화실 framework: Year = childhood/ancestors, Month = youth/parents/career, Day = self/spouse, Hour = late life/children.
+5. **Ten god dynamics** — How the sip-sin appear and interact.
+6. **Active relationships** — Combinations, clashes, harmonies, punishments present in the chart.
+7. **Sin sal layer** — Auspicious and inauspicious stars actually present.
+8. **Dae-un (대운) timeline** — Map current and upcoming 10-year cycles to the methodology above.
+9. **Current se-un (세운) overlay** — Read the current year through the lens of the rest.
+
+## Style guidelines
+
+- **Anchor every claim** to specific data in the chart or specific reference content. If you reference a sin sal, name it. If you say the day master is weak, explain which factors.
+- **Use Korean terms with English explanations.** Example: "Your 용신 (useful god) is water — meaning..."
+- **Acknowledge uncertainty.** Saju is a system of tendencies, not predictions. Use language like "this often manifests as," "tends toward," "suggests."
+- **Tone:** Experienced practitioner. Neither dismissive nor mystical. Grounded.
+- **Length and depth:** Match what the user asked for. A "career reading" should focus on career; a "full life reading" can range broader.
+- **Do NOT invent data.** If something isn't in the chart, say so. Don't assume facts about the person beyond what the chart shows.
+- **Distinguish character readings (high confidence) from forecast readings (lower confidence).** Character is what is; forecast is what tends to.
+
+## What NOT to do
+
+- Don't recompute the chart — trust the structured data provided.
+- Don't list every sin sal in the library — only the ones marked present.
+- Don't pad with generic horoscope language. Be specific.
+- Don't be fatalistic. The chart shows tendencies; people have agency.
+
+
+=== USER ===
+# Reading request
+
+**Focus:** life
+
+Provide a comprehensive life reading covering character, life path, major themes, key transitions visible in the dae-un, and notable patterns. ~800-1200 words.
+
+# Chart data
+
+```json
+{
+  "subject": {
+    "name": "Test",
+    "gender": "F",
+    "birth_date_str": "May 15, 1990",
+    "birth_time_str": "14:30",
+    "analyzed_at": "2026-06-01"
+  },
+  "pillars": {
+    "year": {
+      "position": "year",
+      "stem": "庚",
+      "branch": "午",
+      "jiazi": "庚午",
+      "stem_id": "gyeong",
+      "branch_id": "o",
+      "stem_element": "metal",
+      "stem_yin_yang": "yang",
+      "branch_element": "fire",
+      "zodiac": "horse",
+      "hidden_stems": [
+        "丁",
+        "己"
+      ],
+      "ten_god_stem_ko": "편인",
+      "ten_god_stem": "pyeon_in",
+      "twelve_stage_ko": "태",
+      "twelve_stage": "tae"
+    },
+    "month": {
+      "position": "month",
+      "stem": "辛",
+      "branch": "巳",
+      "jiazi": "辛巳",
+      "stem_id": "sin",
+      "branch_id": "sa",
+      "stem_element": "metal",
+      "stem_yin_yang": "yin",
+      "branch_element": "fire",
+      "zodiac": "snake",
+      "hidden_stems": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "ten_god_stem_ko": "정인",
+      "ten_god_stem": "jeong_in",
+      "twelve_stage_ko": "절",
+      "twelve_stage": "jeol"
+    },
+    "day": {
+      "position": "day",
+      "stem": "壬",
+      "branch": "戌",
+      "jiazi": "壬戌",
+      "stem_id": "im",
+      "branch_id": "sul",
+      "stem_element": "water",
+      "stem_yin_yang": "yang",
+      "branch_element": "earth",
+      "zodiac": "dog",
+      "hidden_stems": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "ten_god_stem_ko": "일간",
+      "ten_god_stem": "day_master",
+      "twelve_stage_ko": "관대",
+      "twelve_stage": "gwandae"
+    },
+    "hour": {
+      "position": "hour",
+      "stem": "丁",
+      "branch": "未",
+      "jiazi": "丁未",
+      "stem_id": "jeong",
+      "branch_id": "mi",
+      "stem_element": "fire",
+      "stem_yin_yang": "yin",
+      "branch_element": "earth",
+      "zodiac": "sheep",
+      "hidden_stems": [
+        "己",
+        "丁",
+        "乙"
+      ],
+      "ten_god_stem_ko": "정재",
+      "ten_god_stem": "jeong_jae",
+      "twelve_stage_ko": "양",
+      "twelve_stage": "yang_stage"
+    }
+  },
+  "day_master": {
+    "stem": "壬",
+    "stem_id": "im",
+    "element": "water",
+    "yin_yang": "yang"
+  },
+  "five_elements_count": {
+    "wood": 0,
+    "fire": 3,
+    "earth": 2,
+    "metal": 2,
+    "water": 1
+  },
+  "interactions": [
+    {
+      "pillars": [
+        "month",
+        "year"
+      ],
+      "type": "combination",
+      "result": "fire"
+    },
+    {
+      "pillars": [
+        "hour",
+        "year"
+      ],
+      "type": "combination",
+      "result": "fire"
+    },
+    {
+      "pillars": [
+        "day",
+        "month"
+      ],
+      "type": "ghost_gate"
+    },
+    {
+      "pillars": [
+        "hour",
+        "day"
+      ],
+      "type": "combination",
+      "result": "wood"
+    },
+    {
+      "pillars": [
+        "hour",
+        "day"
+      ],
+      "type": "break"
+    }
+  ],
+  "sin_sal_present": [
+    {
+      "id": "cheon_eul_gwi_in",
+      "korean": "천을귀인",
+      "location": "month"
+    },
+    {
+      "id": "tian_de_gui_ren",
+      "korean": "천덕귀인",
+      "location": "hour"
+    },
+    {
+      "id": "goe_gang_sal",
+      "korean": "괴강",
+      "location": "day_master"
+    }
+  ],
+  "sin_sal_absent": [
+    "wol_deok_gwi_in",
+    "wen_chang_gui_ren",
+    "yang_ren",
+    "tao_hua",
+    "geum_yeo",
+    "baek_ho_sal",
+    "hong_yeom"
+  ],
+  "void_branches": {
+    "branches": [
+      "辰",
+      "戌"
+    ],
+    "present_in_chart": [
+      "戌"
+    ],
+    "void_pillars": []
+  },
+  "dae_un": [
+    {
+      "age_start": 3,
+      "jiazi": "庚辰",
+      "is_void": true,
+      "stem_ten_god_ko": "편인",
+      "branch_ten_god_ko": "편관",
+      "twelve_stage_ko": "월살",
+      "spirit_ko": null,
+      "stem_ten_god": "pyeon_in",
+      "branch_ten_god": "pyeon_gwan"
+    },
+    {
+      "age_start": 13,
+      "jiazi": "己卯",
+      "is_void": false,
+      "stem_ten_god_ko": "정관",
+      "branch_ten_god_ko": "상관",
+      "twelve_stage_ko": "년살",
+      "spirit_ko": null,
+      "stem_ten_god": "jeong_gwan",
+      "branch_ten_god": "sang_gwan"
+    },
+    {
+      "age_start": 23,
+      "jiazi": "戊寅",
+      "is_void": false,
+      "stem_ten_god_ko": "편관",
+      "branch_ten_god_ko": "식신",
+      "twelve_stage_ko": "지살",
+      "spirit_ko": null,
+      "stem_ten_god": "pyeon_gwan",
+      "branch_ten_god": "sik_sin"
+    },
+    {
+      "age_start": 33,
+      "jiazi": "丁丑",
+      "is_void": false,
+      "stem_ten_god_ko": "정재",
+      "branch_ten_god_ko": "정관",
+      "twelve_stage_ko": "천살",
+      "spirit_ko": null,
+      "stem_ten_god": "jeong_jae",
+      "branch_ten_god": "jeong_gwan"
+    },
+    {
+      "age_start": 43,
+      "jiazi": "丙子",
+      "is_void": false,
+      "stem_ten_god_ko": "편재",
+      "branch_ten_god_ko": "식신",
+      "twelve_stage_ko": "제왕",
+      "spirit_ko": "재살",
+      "stem_ten_god": "pyeon_jae",
+      "branch_ten_god": "sik_sin"
+    },
+    {
+      "age_start": 53,
+      "jiazi": "乙亥",
+      "is_void": false,
+      "stem_ten_god_ko": "상관",
+      "branch_ten_god_ko": "겁재",
+      "twelve_stage_ko": "건록",
+      "spirit_ko": "겁살",
+      "stem_ten_god": "sang_gwan",
+      "branch_ten_god": "geop_jae"
+    },
+    {
+      "age_start": 63,
+      "jiazi": "甲戌",
+      "is_void": true,
+      "stem_ten_god_ko": "식신",
+      "branch_ten_god_ko": "편관",
+      "twelve_stage_ko": "관대",
+      "spirit_ko": "화개",
+      "stem_ten_god": "sik_sin",
+      "branch_ten_god": "pyeon_gwan"
+    },
+    {
+      "age_start": 73,
+      "jiazi": "癸酉",
+      "is_void": false,
+      "stem_ten_god_ko": "겁재",
+      "branch_ten_god_ko": "정인",
+      "twelve_stage_ko": "목욕",
+      "spirit_ko": "육해",
+      "stem_ten_god": "geop_jae",
+      "branch_ten_god": "jeong_in"
+    },
+    {
+      "age_start": 83,
+      "jiazi": "壬申",
+      "is_void": false,
+      "stem_ten_god_ko": "비겁",
+      "branch_ten_god_ko": "편인",
+      "twelve_stage_ko": "장생",
+      "spirit_ko": "역마",
+      "stem_ten_god": "bi_gyeon",
+      "branch_ten_god": "pyeon_in"
+    },
+    {
+      "age_start": 93,
+      "jiazi": "辛未",
+      "is_void": false,
+      "stem_ten_god_ko": "정인",
+      "branch_ten_god_ko": "정재",
+      "twelve_stage_ko": "반안",
+      "spirit_ko": null,
+      "stem_ten_god": "jeong_in",
+      "branch_ten_god": "jeong_jae"
+    }
+  ],
+  "se_un": {
+    "entries": [
+      {
+        "year": 2021,
+        "jiazi": "辛丑",
+        "is_current": false,
+        "stem_ten_god_ko": "정인",
+        "stem_ten_god": "jeong_in"
+      },
+      {
+        "year": 2022,
+        "jiazi": "壬寅",
+        "is_current": false,
+        "stem_ten_god_ko": "비겁",
+        "stem_ten_god": "bi_gyeon"
+      },
+      {
+        "year": 2023,
+        "jiazi": "癸卯",
+        "is_current": false,
+        "stem_ten_god_ko": "겁재",
+        "stem_ten_god": "geop_jae"
+      },
+      {
+        "year": 2024,
+        "jiazi": "甲辰",
+        "is_current": false,
+        "stem_ten_god_ko": "식신",
+        "stem_ten_god": "sik_sin"
+      },
+      {
+        "year": 2025,
+        "jiazi": "乙巳",
+        "is_current": false,
+        "stem_ten_god_ko": "상관",
+        "stem_ten_god": "sang_gwan"
+      },
+      {
+        "year": 2026,
+        "jiazi": "丙午",
+        "is_current": true,
+        "stem_ten_god_ko": "편재",
+        "stem_ten_god": "pyeon_jae"
+      },
+      {
+        "year": 2027,
+        "jiazi": "丁未",
+        "is_current": false,
+        "stem_ten_god_ko": "정재",
+        "stem_ten_god": "jeong_jae"
+      },
+      {
+        "year": 2028,
+        "jiazi": "戊申",
+        "is_current": false,
+        "stem_ten_god_ko": "편관",
+        "stem_ten_god": "pyeon_gwan"
+      },
+      {
+        "year": 2029,
+        "jiazi": "己酉",
+        "is_current": false,
+        "stem_ten_god_ko": "정관",
+        "stem_ten_god": "jeong_gwan"
+      },
+      {
+        "year": 2030,
+        "jiazi": "庚戌",
+        "is_current": false,
+        "stem_ten_god_ko": "편인",
+        "stem_ten_god": "pyeon_in"
+      },
+      {
+        "year": 2031,
+        "jiazi": "辛亥",
+        "is_current": false,
+        "stem_ten_god_ko": "정인",
+        "stem_ten_god": "jeong_in"
+      }
+    ],
+    "current": {
+      "year": 2026,
+      "jiazi": "丙午",
+      "is_current": true,
+      "stem_ten_god_ko": "편재",
+      "stem_ten_god": "pyeon_jae"
+    },
+    "current_year": 2026
+  }
+}
+```
+
+# Methodology reference
+
+These primers describe how Saju readings work. Use them as your interpretive framework.
+
+## yong_sin.md
+
+---
+type: yong_sin_primer
+id: yong_sin
+---
+
+# Useful god (용신/用神) — selection primer
+
+The 용신 is the single Ten God or element that *regulates* a chart — bringing the Day Master into balance or unlocking its highest expression. Identifying the 용신 is the single most important interpretive step in Saju.
+
+## Step 1 — Assess Day Master strength
+
+Determine whether your Day Master is **strong (신강)** or **weak (신약)** by checking four factors:
+
+1. **득령 (得令)** — Is the Day Master's element strong in the Month Branch? (Most important factor.)
+2. **득지 (得地)** — Does the Day Master have roots in any of the other branches?
+3. **득세 (得勢)** — Are stems and branches around the chart of the same element or supporting elements?
+4. **득시 (得時)** — Is the season favorable to the Day Master? (Largely overlaps with 득령.)
+
+A Day Master that has 2-3+ of these conditions is generally strong. Fewer means weak.
+
+## Step 2 — Pick a 용신 from one of five strategies
+
+The classical schools recognize five categories of 용신:
+
+### 1. 부억용신 (扶抑) — Support or Suppress
+
+The most common method. If Day Master is **weak**, the 용신 is an element that *supports* it (same element = 비겁; generating element = 인성). If Day Master is **strong**, the 용신 is an element that *drains or controls* it (output = 식상; controller = 관살; or wealth = 재성).
+
+### 2. 통관용신 (通關) — Mediator
+
+When two elements in a chart are clashing intensely, the 용신 is the element that *mediates* between them by being generated by one and generating the other. (Example: heavy water vs heavy fire → wood mediates.)
+
+### 3. 병약용신 (病藥) — Illness and Remedy
+
+The chart has an obvious 'illness' — a problematic element or god. The 용신 is the 'medicine' that addresses it specifically.
+
+### 4. 조후용신 (調候) — Climate regulator
+
+When the chart is extremely hot (heavy fire/summer-born) or cold (heavy water/winter-born), the 용신 is the element that *cools* (water) or *warms* (fire) the chart. This is especially important for charts born deep in the seasonal extremes.
+
+### 5. 전왕용신 (專旺) — Specialization
+
+When one element overwhelmingly dominates a chart, fighting it is futile. The 용신 *goes with* the dominant element — letting it flow rather than blocking it. Includes 종격 (follower patterns) and 화기격 (transformation patterns).
+
+## Step 3 — Read luck pillars (대운/세운) by 용신
+
+Once the 용신 is identified, your 10-year and annual luck cycles become readable. A 대운 that brings the 용신 element supports the chart; one that brings the *opposing* element creates difficulty.
+
+## A note on humility
+
+Picking the 용신 correctly is the part of Saju that takes the longest to learn. Two experienced readers can disagree on the same chart. When in doubt, the Month Branch's hidden stems and the structural pattern (격국) of the chart are the strongest anchors — see `patterns.md`.
+
+
+## patterns.md
+
+---
+type: patterns_primer
+id: patterns
+---
+
+# Pattern theory (격국/格局)
+
+The 격국 is the *structural shape* of a chart — what kind of bazi you're reading. Most charts fit one of eight normal patterns, derived from the dominant Ten God produced by the Month Branch's hidden stems.
+
+## The eight normal patterns
+
+The pattern is determined by which Ten God is produced when the Month Branch's primary hidden stem relates to the Day Master.
+
+### 1. 정관격 (正官格) — Direct Officer pattern
+The Month Branch produces Direct Officer to the Day Master. Indicates a structured, principled life path — civil service, law, structured careers. Best supported by 정인 (Direct Resource) and harmed by 상관 (Hurting Officer).
+
+### 2. 편관격 / 칠살격 (七殺格) — Indirect Officer / Seven Killings pattern
+The Month Branch produces Seven Killings. Aggressive, decisive, military or executive temperament. Needs taming — either by 식신 (Eating God) controlling it, or by 인성 (Resource) absorbing it. Untamed 칠살 is dangerous; tamed it produces extraordinary command.
+
+### 3. 정재격 (正財格) — Direct Wealth pattern
+Money, marriage (for men), steady accumulation. Best supported by 식상 (Output) and 관성 (Officer). Harmed by 비겁 (Peers stealing wealth).
+
+### 4. 편재격 (偏財格) — Indirect Wealth pattern
+Big money, big risk, big opportunity. Entrepreneurs, deal-makers, traders. Same support/harm structure as 정재격 but with more volatility.
+
+### 5. 정인격 (正印格) — Direct Resource pattern
+Learning, scholarship, mother, support systems. Best supported by 관성 (which generates the resource). Harmed by 재성 (Wealth) which controls Resource.
+
+### 6. 편인격 (偏印格) — Indirect Resource pattern
+Unconventional learning — esoteric, spiritual, technical, artistic skills. Can produce great originality or great instability.
+
+### 7. 식신격 (食神格) — Eating God pattern
+Creativity, productivity, enjoyment of life, children (for women). Generates wealth naturally. Harmed by 편인 which 'sees off' the Eating God.
+
+### 8. 상관격 (傷官格) — Hurting Officer pattern
+Brilliance, expression, performance, rebellion against authority. Often artists, performers, critics. Harmed by 정관 (Direct Officer) being present — clashes with the rebellion.
+
+## Special patterns (특수격국)
+
+When a chart doesn't fit normal patterns, look for these:
+
+### 종격 (從格) — Follower patterns
+When the Day Master is so weak it cannot stand on its own, it 'follows' the dominant force in the chart:
+- 종재격 (follow wealth)
+- 종살격 (follow killings)
+- 종아격 (follow output)
+- 종왕격 (follow peers — when same-element dominates)
+- 종강격 (follow resource)
+
+### 화기격 (化氣格) — Transformation patterns
+When the Day Master combines with a stem and the entire chart supports the transformation, the Day Master *becomes* the new element. Five possible transformations matching the five stem combinations.
+
+### 양인격 (羊刃格) — Goat Blade pattern
+When the Month Branch is the Day Master's 羊刃 (peak yang energy branch). Powerful but volatile. Requires 칠살 (Seven Killings) to control.
+
+### 건록격 (建祿格) — Established Prosperity pattern
+When the Month Branch is the Day Master's 祿 (peer branch). Strong, self-supporting Day Master — natural leader.
+
+## How to identify a pattern
+
+1. Look at the Month Branch.
+2. Identify its primary hidden stem (the strongest one, usually the first in the hidden stems list).
+3. Determine what Ten God that hidden stem is to the Day Master.
+4. That Ten God names the pattern.
+5. Check whether the pattern is *intact* (the relevant element appears clearly elsewhere in the chart and isn't destroyed by clashes/combinations) or *broken* (compromised).
+
+A clean, intact pattern produces a clear life direction. A broken pattern produces confusion or struggle.
+
+
+## geunmyo.md
+
+---
+type: geunmyo_primer
+id: geunmyo
+---
+
+# Geunmyo Hwasil (근묘화실/根苗花實) — pillar life-stage framework
+
+The four pillars of a Saju chart aren't just snapshots — they map onto life stages, family relationships, and physical regions.
+
+## The four pillars
+
+| Pillar | Korean | Life period | Family represented | Life domain |
+|--------|--------|-------------|--------------------|-------------|
+| Year   | 년주 (年柱) | 0–15 years (childhood) — root (根) | Grandparents, ancestors | Ancestral environment, society at birth, social position |
+| Month  | 월주 (月柱) | 16–30 years (youth) — sprout (苗) | Parents, siblings | Education, career foundation, family environment |
+| Day    | 일주 (日柱) | 31–45 years (maturity) — flower (花) | Self + spouse | Personal identity, marriage, peak life |
+| Hour   | 시주 (時柱) | 46+ years (later life) — fruit (實) | Children, descendants | Late career, legacy, retirement, children |
+
+## How to use this framework
+
+### 1. Read events by pillar
+A clash in the year pillar suggests difficulty in childhood or with ancestors. A 공망 in the hour pillar suggests an unmarked or disconnected late-life domain.
+
+### 2. Read relationships by pillar
+- Year pillar relationships affect ancestry and early environment.
+- Month pillar affects parents (especially father, traditionally placed in the month stem).
+- Day branch is the *spouse palace* (배우자궁) — your marriage partner sits here.
+- Hour pillar affects children.
+
+### 3. Read the body by pillar
+Some schools also map the four pillars to physical body regions:
+- Year — head, ancestry
+- Month — chest, upper torso
+- Day — abdomen, core
+- Hour — legs, lower body
+
+## The day pillar's special role
+
+The Day Stem is the Day Master — *you*. The Day Branch is your spouse palace. This makes the Day Pillar the most personally significant of the four. Reading the relationship between the Day Stem (you) and the Day Branch (your partner / your inner ground) reveals a lot about marriage, self-relationship, and core temperament.
+
+## Pillar interactions
+
+Pillars don't live in isolation — they affect each other through the relationships described in `relationships/`:
+- Month-Day clash: career/family vs personal life tension.
+- Year-Hour clash: youth and late-life patterns rhyming in conflict.
+- Day-Hour combination: harmony between self and children/legacy.
+
+
+## dae_un.md
+
+---
+type: dae_un_primer
+id: dae_un
+---
+
+# Dae-un (대운/大運) — 10-year luck cycle
+
+The 대운 is the sequence of 10-year periods that color a person's life. Each 대운 is a stem-branch pillar that succeeds the next, derived from the Month Pillar.
+
+## How direction is determined
+
+Direction depends on the **gender of the year stem polarity**:
+
+| Year stem polarity | Person's sex | Dae-un direction |
+|--------------------|--------------|------------------|
+| Yang (甲丙戊庚壬)  | Male         | Forward (順行)   |
+| Yang               | Female       | Backward (逆行)  |
+| Yin (乙丁己辛癸)   | Male         | Backward (逆行)  |
+| Yin                | Female       | Forward (順行)   |
+
+The 대운 pillars are then read forward or backward from the Month Pillar through the 60-jiazi cycle.
+
+## How starting age is determined
+
+Count the days between the birth time and the *nearest applicable solar term* (next term if forward direction; previous term if backward direction). Divide that number of days by 3 — the result is the age (in years) at which the first 대운 begins.
+
+The exact formula:
+- Days between birth and reference solar term, ÷ 3 = starting age in years.
+- A remainder of 1 day ≈ 4 months; 2 days ≈ 8 months.
+
+## How to read a dae-un
+
+Each 대운 is read as a pillar layered on top of the natal chart:
+1. The 대운 stem interacts with the natal stems (combinations, clashes).
+2. The 대운 branch interacts with the natal branches (combinations, trinities, clashes, harms, punishments).
+3. The 대운 introduces or amplifies certain Ten Gods.
+4. Compare the 대운's element to the 용신 — supportive or opposing?
+
+A 대운 that brings the 용신 element supports the chart for a decade. One that brings the opposing element creates a difficult decade.
+
+## Mid-cycle transitions
+
+The first 5 years of a 대운 are dominated by the *stem*; the second 5 years are dominated by the *branch*. A 대운 may shift dramatically at the 5-year mark.
+
+## Practical reading tip
+
+Map out the next 3-4 대운 from the person's current age. Look for major transitions — clash, trinity completion, sudden element shift — and treat those as pivot points in life narrative.
+
+
+# Day Master reference
+
+---
+type: heavenly_stem
+id: 9
+chinese: 壬
+korean: 임
+korean_romanized: im
+pinyin: rén
+element: water
+yin_yang: yang
+sequence: 9
+keywords: [vast, wise, ambitious, flowing, deep]
+---
+
+# 壬 (임 im)
+
+**Pinyin** — rén
+**Element** — water (yang)
+**Image** — ocean, big river
+**Sequence** — 9 of 10
+
+## Keywords
+vast, wise, ambitious, flowing, deep
+
+## Interpretation
+Yang Water. The river, the ocean. Wide-thinking, intelligent, restless. Carries everything; can also wash things away.
+
+
+# The four pillars of this chart
+
+## YEAR pillar — 庚午
+
+---
+type: pillar
+id: 7
+slug: 07-gyeong-o
+chinese: 庚午
+stem: 庚
+branch: 午
+stem_ko: 경
+branch_ko: 오
+stem_element: metal
+stem_yin_yang: yang
+branch_element: fire
+zodiac: horse
+hidden_stems: [丁, 己]
+twelve_stage: 沐浴
+twelve_stage_ko: 목욕
+nayin_zh: 路傍土
+nayin_ko: 노방토
+nayin_en: Roadside Earth
+nayin_element: earth
+empty_branches: [戌, 亥]
+stem_branch_relationship: is controlled by (branch controls stem — pressure)
+---
+
+# 庚午 (경오) — Pillar 7 of 60
+
+**Stem** — 庚 경 (metal, yang)
+**Branch** — 午 오 (fire, horse)
+**Hidden stems in branch** — 丁, 己
+**Twelve-stage position** — 沐浴 목욕
+**Nayin** — 路傍土 노방토 (Roadside Earth — earth)
+**Empty branches** — 戌, 亥
+**Stem-on-branch** — Is controlled by (branch controls stem — pressure)
+
+## Character
+
+Iron in the forge — metal being shaped by fire. Decisive but at risk of burnout. Forceful personality, can be inflexible.
+
+## Day Master reading
+
+The metal day master is controlled by the branch — under pressure from its own ground. Capable of great achievement under stress.
+
+## Notes
+
+- This pillar's nayin element (earth) may differ from the stem and branch elements — useful for compatibility readings.
+- When this pillar is the Day Pillar, the branch (午) is the spouse palace.
+- 공망 for this 旬: 戌, 亥.
+
+
+## MONTH pillar — 辛巳
+
+---
+type: pillar
+id: 18
+slug: 18-sin-sa
+chinese: 辛巳
+stem: 辛
+branch: 巳
+stem_ko: 신
+branch_ko: 사
+stem_element: metal
+stem_yin_yang: yin
+branch_element: fire
+zodiac: snake
+hidden_stems: [丙, 庚, 戊]
+twelve_stage: 死
+twelve_stage_ko: 사
+nayin_zh: 白蠟金
+nayin_ko: 백랍금
+nayin_en: White Wax Metal
+nayin_element: metal
+empty_branches: [申, 酉]
+stem_branch_relationship: is controlled by (branch controls stem — pressure)
+---
+
+# 辛巳 (신사) — Pillar 18 of 60
+
+**Stem** — 辛 신 (metal, yin)
+**Branch** — 巳 사 (fire, snake)
+**Hidden stems in branch** — 丙, 庚, 戊
+**Twelve-stage position** — 死 사
+**Nayin** — 白蠟金 백랍금 (White Wax Metal — metal)
+**Empty branches** — 申, 酉
+**Stem-on-branch** — Is controlled by (branch controls stem — pressure)
+
+## Character
+
+Refined metal heated by fire — being tempered. Refined and ambitious, but at risk of internal conflict (fire melting metal).
+
+## Day Master reading
+
+The metal day master is controlled by the branch — under pressure from its own ground. Capable of great achievement under stress.
+
+## Notes
+
+- This pillar's nayin element (metal) may differ from the stem and branch elements — useful for compatibility readings.
+- When this pillar is the Day Pillar, the branch (巳) is the spouse palace.
+- 공망 for this 旬: 申, 酉.
+
+
+## DAY pillar — 壬戌
+
+---
+type: pillar
+id: 59
+slug: 59-im-sul
+chinese: 壬戌
+stem: 壬
+branch: 戌
+stem_ko: 임
+branch_ko: 술
+stem_element: water
+stem_yin_yang: yang
+branch_element: earth
+zodiac: dog
+hidden_stems: [戊, 辛, 丁]
+twelve_stage: 冠帶
+twelve_stage_ko: 관대
+nayin_zh: 大海水
+nayin_ko: 대해수
+nayin_en: Great Sea Water
+nayin_element: water
+empty_branches: [子, 丑]
+stem_branch_relationship: is controlled by (branch controls stem — pressure)
+---
+
+# 壬戌 (임술) — Pillar 59 of 60
+
+**Stem** — 壬 임 (water, yang)
+**Branch** — 戌 술 (earth, dog)
+**Hidden stems in branch** — 戊, 辛, 丁
+**Twelve-stage position** — 冠帶 관대
+**Nayin** — 大海水 대해수 (Great Sea Water — water)
+**Empty branches** — 子, 丑
+**Stem-on-branch** — Is controlled by (branch controls stem — pressure)
+
+## Character
+
+Great water in autumn mountain — depth meeting solidity. 괴강 pillar: powerful, sometimes mysterious. Often achieves greatness.
+
+## Day Master reading
+
+The water day master is controlled by the branch — under pressure from its own ground. Capable of great achievement under stress.
+
+## Notes
+
+- This pillar's nayin element (water) may differ from the stem and branch elements — useful for compatibility readings.
+- When this pillar is the Day Pillar, the branch (戌) is the spouse palace.
+- 공망 for this 旬: 子, 丑.
+
+
+## HOUR pillar — 丁未
+
+---
+type: pillar
+id: 44
+slug: 44-jeong-mi
+chinese: 丁未
+stem: 丁
+branch: 未
+stem_ko: 정
+branch_ko: 미
+stem_element: fire
+stem_yin_yang: yin
+branch_element: earth
+zodiac: sheep
+hidden_stems: [己, 丁, 乙]
+twelve_stage: 冠帶
+twelve_stage_ko: 관대
+nayin_zh: 天河水
+nayin_ko: 천하수
+nayin_en: Sky-River Water
+nayin_element: water
+empty_branches: [寅, 卯]
+stem_branch_relationship: leaks (stem generates branch — stem element gives energy)
+---
+
+# 丁未 (정미) — Pillar 44 of 60
+
+**Stem** — 丁 정 (fire, yin)
+**Branch** — 未 미 (earth, sheep)
+**Hidden stems in branch** — 己, 丁, 乙
+**Twelve-stage position** — 冠帶 관대
+**Nayin** — 天河水 천하수 (Sky-River Water — water)
+**Empty branches** — 寅, 卯
+**Stem-on-branch** — Leaks (stem generates branch — stem element gives energy)
+
+## Character
+
+Candle in summer earth — controlled warmth. Refined, sociable, often diplomatic.
+
+## Day Master reading
+
+The fire day master generates the branch — energy is expressed outward. Productive but can feel drained without other support.
+
+## Notes
+
+- This pillar's nayin element (water) may differ from the stem and branch elements — useful for compatibility readings.
+- When this pillar is the Day Pillar, the branch (未) is the spouse palace.
+- 공망 for this 旬: 寅, 卯.
+
+
+# Ten Gods appearing in this chart
+
+---
+type: ten_god
+id: pian_yin
+chinese: 偏印
+korean: 편인
+korean_romanized: pyeon-in
+relation_to_day_master: produces Day Master; same polarity
+category: resources / unconventional
+keywords: [intuition, occult learning, stepmother, isolation, deep study]
+---
+
+# 偏印 (편인 pyeon-in)
+
+**Relation to Day Master** — produces Day Master; same polarity
+**Category** — resources / unconventional
+
+## Keywords
+intuition, occult learning, stepmother, isolation, deep study
+
+## Positive expression
+Mystical intuition, depth of study, unique knowledge, scholar of the unusual.
+
+## Negative expression
+Loneliness, melancholy, hard to relate to, narrow obsession.
+
+## Life domain
+spiritual study, alternative healing, niche scholarship, stepmother figure
+
+
+---
+type: ten_god
+id: zheng_yin
+chinese: 正印
+korean: 정인
+korean_romanized: jeong-in
+relation_to_day_master: produces Day Master; opposite polarity
+category: resources / nourishing
+keywords: [mother, education, support, tradition, knowledge]
+---
+
+# 正印 (정인 jeong-in)
+
+**Relation to Day Master** — produces Day Master; opposite polarity
+**Category** — resources / nourishing
+
+## Keywords
+mother, education, support, tradition, knowledge
+
+## Positive expression
+Nurturing, well-educated, supported, calm under pressure, traditionally learned.
+
+## Negative expression
+Overdependence, slow to act, stuck in mother's orbit, paralysis from too much support.
+
+## Life domain
+mother, formal education, mentors, classical learning, support systems
+
+
+---
+type: ten_god
+id: zheng_cai
+chinese: 正財
+korean: 정재
+korean_romanized: jeong-jae
+relation_to_day_master: Day Master controls; opposite polarity
+category: wealth / stable
+keywords: [earned wealth, salary, "spouse (classically, wife)", steady, careful]
+---
+
+# 正財 (정재 jeong-jae)
+
+**Relation to Day Master** — Day Master controls; opposite polarity
+**Category** — wealth / stable
+
+## Keywords
+earned wealth, salary, spouse (classically, wife), steady, careful
+
+## Positive expression
+Reliable income, careful with money, family-oriented, steady commitment.
+
+## Negative expression
+Stingy, conventional, fear of risk, calculating in relationships.
+
+## Life domain
+salary, savings, spouse (classically wife for a man), property
+
+
+# Branches in this chart
+
+---
+type: earthly_branch
+id: 11
+chinese: 戌
+korean: 술
+korean_romanized: sul
+pinyin: xū
+element: earth
+yin_yang_polar: yang
+yin_yang_operational: yang
+zodiac: dog
+hour: "19:00–21:00"
+lunar_month: 9
+solar_month: late autumn
+season: autumn to winter
+direction: west-northwest
+hidden_stems: [戊, 辛, 丁]
+keywords: [loyalty, guard, tradition, warmth retained, ethics]
+---
+
+# 戌 (술 sul) — dog
+
+**Pinyin** — xū
+**Element** — earth
+**Polarity (positional)** — yang
+**Polarity (operational, when used as Ten God)** — yang
+**Hour** — 19:00–21:00
+**Solar month** — late autumn
+**Lunar month (~)** — 9
+**Season** — autumn to winter
+**Direction** — west-northwest
+**Hidden stems** — 戊, 辛, 丁
+
+## Keywords
+loyalty, guard, tradition, warmth retained, ethics
+
+## Interpretation
+Early evening, late autumn. Loyal, principled, protective. Conservative, family-oriented, warmer than its outward sternness.
+
+
+---
+type: earthly_branch
+id: 8
+chinese: 未
+korean: 미
+korean_romanized: mi
+pinyin: wèi
+element: earth
+yin_yang_polar: yin
+yin_yang_operational: yin
+zodiac: sheep/goat
+hour: "13:00–15:00"
+lunar_month: 6
+solar_month: late summer
+season: summer to autumn
+direction: south-southwest
+hidden_stems: [己, 丁, 乙]
+keywords: [gentleness, harvest, domestic, creative, warm earth]
+---
+
+# 未 (미 mi) — sheep/goat
+
+**Pinyin** — wèi
+**Element** — earth
+**Polarity (positional)** — yin
+**Polarity (operational, when used as Ten God)** — yin
+**Hour** — 13:00–15:00
+**Solar month** — late summer
+**Lunar month (~)** — 6
+**Season** — summer to autumn
+**Direction** — south-southwest
+**Hidden stems** — 己, 丁, 乙
+
+## Keywords
+gentleness, harvest, domestic, creative, warm earth
+
+## Interpretation
+Early afternoon, late summer. Warm, fragrant, creative. Caring, slightly indirect, often artistic.
+
+
+---
+type: earthly_branch
+id: 7
+chinese: 午
+korean: 오
+korean_romanized: o
+pinyin: wǔ
+element: fire
+yin_yang_polar: yang
+yin_yang_operational: yin
+zodiac: horse
+hour: "11:00–13:00"
+lunar_month: 5
+solar_month: summer solstice (xiazhi)
+season: summer
+direction: south
+hidden_stems: [丁, 己]
+keywords: [passion, freedom, movement, peak yang, sociable]
+---
+
+# 午 (오 o) — horse
+
+**Pinyin** — wǔ
+**Element** — fire
+**Polarity (positional)** — yang
+**Polarity (operational, when used as Ten God)** — yin
+**Hour** — 11:00–13:00
+**Solar month** — summer solstice (xiazhi)
+**Lunar month (~)** — 5
+**Season** — summer
+**Direction** — south
+**Hidden stems** — 丁, 己
+
+## Keywords
+passion, freedom, movement, peak yang, sociable
+
+## Interpretation
+Noon, peak summer, sun at zenith. Energetic, expressive, freedom-loving. Burns hot; needs rest.
+
+
+---
+type: earthly_branch
+id: 6
+chinese: 巳
+korean: 사
+korean_romanized: sa
+pinyin: sì
+element: fire
+yin_yang_polar: yin
+yin_yang_operational: yang
+zodiac: snake
+hour: "09:00–11:00"
+lunar_month: 4
+solar_month: early summer (lixia)
+season: summer
+direction: south-southeast
+hidden_stems: [丙, 戊, 庚]
+keywords: [wisdom, subtlety, concentrated heat, strategic, deep insight]
+---
+
+# 巳 (사 sa) — snake
+
+**Pinyin** — sì
+**Element** — fire
+**Polarity (positional)** — yin
+**Polarity (operational, when used as Ten God)** — yang
+**Hour** — 09:00–11:00
+**Solar month** — early summer (lixia)
+**Lunar month (~)** — 4
+**Season** — summer
+**Direction** — south-southeast
+**Hidden stems** — 丙, 戊, 庚
+
+## Keywords
+wisdom, subtlety, concentrated heat, strategic, deep insight
+
+## Interpretation
+Late morning, early summer. Coiled fire — strategic, perceptive, calculating. Strikes once, precisely.
+
+
+# Relationship matrices
+
+These are the active relationships (combinations, clashes, etc.) detected in the chart, plus background tables.
+
+---
+type: branch_relationships
+id: branch_six_breaks
+subtype: break
+---
+
+# Branch six-breaks (육파 / 六破)
+
+Six pairs that disrupt or undermine. Weaker than clashes but creates instability in whatever the affected pillars represent.
+
+| Branch A | Branch B | Korean | Reading |
+|---|---|---|---|
+| 子 | 酉 | 자유 | Disruption to plans, broken connections. |
+| 丑 | 辰 | 축진 | Earth fragmentation — broken foundations. |
+| 寅 | 亥 | 인해 | Note: also a six-combination — break weakens but doesn't destroy. |
+| 卯 | 午 | 묘오 | Wood-fire break — burnout, exhausted growth. |
+| 巳 | 申 | 사신 | Note: also a six-combination and a punishment — three relationships at once. |
+| 未 | 戌 | 미술 | Dry earth meeting dry earth — friction without nourishment. |
+
+Note that 寅亥 and 巳申 appear in multiple relationship tables — they're simultaneously combinations *and* breaks, indicating built-in instability within bonding.
+
+
+---
+type: branch_relationships
+id: branch_six_combinations
+subtype: combination
+---
+
+# Branch six-combinations (지지육합 / 地支六合)
+
+Six paired branches that bond, sometimes producing a transformed element when surrounding chart supports.
+
+| Branch A | Branch B | Korean | Transforms to | Reading |
+|---|---|---|---|---|
+| 子 | 丑 | 자축 | earth (weak) | Often a quiet, conserving combination. Earth element if surrounding chart supports; otherwise just bonding. |
+| 寅 | 亥 | 인해 | wood | Strong wood-producing combination — water nourishes wood. |
+| 卯 | 戌 | 묘술 | fire | A famous combo — wood meets dry earth and ignites fire (when conditions support). |
+| 辰 | 酉 | 진유 | metal | Earth generates metal — solid combo. |
+| 巳 | 申 | 사신 | water | Notoriously unstable — also a punishment pair. Combines AND fights. |
+| 午 | 未 | 오미 | no transform (sun-moon) | The Sun and Moon combination. Bonding without a clean element transform; sometimes referenced as fire-leaning. |
+
+## Reading notes
+
+- A six-combination involving the Day Branch and the Spouse Palace (day branch) suggests close marital bonding.
+- 巳申 is special — it's *simultaneously* a combination, a punishment, and a break. Three relationships in one pair create complicated dynamics.
+- 寅亥 is *simultaneously* a combination and a break — bonding with breakdown built in.
+
+
+---
+type: stem_relationships
+id: stem_combinations
+subtype: combination
+---
+
+# Heavenly stem five combinations (천간오합 / 天干五合)
+
+Five paired stems that combine. When the surrounding chart supports it (right season, sufficient root), they can *transform* into a new element (合化).
+
+| Stem A | Stem B | Korean | Transforms to | Name |
+|---|---|---|---|---|
+| 甲 | 己 | 갑기 | earth (土) | — |
+| 乙 | 庚 | 을경 | metal (金) | — |
+| 丙 | 辛 | 병신 | water (水) | — |
+| 丁 | 壬 | 정임 | wood (木) | — |
+| 戊 | 癸 | 무계 | fire (火) | — |
+
+## Interpretations
+
+### 甲 + 己 (갑기)
+甲己合化土 — Yang Wood and Yin Earth combine into Earth. The Combination of Centrality and Loyalty (中正之合). Implies trustworthiness, principled center.
+
+### 乙 + 庚 (을경)
+乙庚合化金 — Yin Wood and Yang Metal combine into Metal. The Combination of Benevolence and Righteousness (仁義之合). Implies fairness, courage, willingness to do hard things.
+
+### 丙 + 辛 (병신)
+丙辛合化水 — Yang Fire and Yin Metal combine into Water. The Combination of Authority (威制之合). Power dynamics; can produce charisma but also coercion.
+
+### 丁 + 壬 (정임)
+丁壬合化木 — Yin Fire and Yang Water combine into Wood. The Combination of Sensuality (淫慝之合). Passionate, creative, sometimes overly attached or emotional.
+
+### 戊 + 癸 (무계)
+戊癸合化火 — Yang Earth and Yin Water combine into Fire. The Combination of Beauty (無情之合). Mismatched ages classically; aesthetic, sometimes detached.
+
+## Reading notes
+
+- Combination always implies *bonding* even when full transformation doesn't occur.
+- Day Master combining with a Ten God can change how that god behaves.
+- Combination of the Day Master 'binds' the day master toward the partner — sometimes loss of independence.
+
+
+---
+type: stem_relationships
+id: stem_clashes
+subtype: clash
+---
+
+# Heavenly stem clashes (천간충 / 天干相沖)
+
+Stems seven positions apart in the cycle clash. Yang clashes yang, yin clashes yin. Earth stems (戊, 己) are central and have no clash partner.
+
+| Stem A | Stem B | Dynamic |
+|---|---|---|
+| 甲 | 庚 | wood vs metal — metal cuts wood |
+| 乙 | 辛 | yin wood vs yin metal — pruning shears |
+| 丙 | 壬 | fire vs water — water extinguishes fire |
+| 丁 | 癸 | yin fire vs yin water — small flame, mist |
+
+Clashes between stems are generally less violent than between branches but still disturbing — the clashing element on top of the chart creates visible friction in personality or external life.
+
+
+---
+type: branch_relationships
+id: branch_three_harmonies
+subtype: three_harmony
+---
+
+# Three harmonies (삼합 / 三合)
+
+Four branch triplets that form powerful element trinities. Each trinity contains a birth (長生), peak (帝旺), and storage (墓) of a single element.
+
+| Trinity | Korean | Element | Reading |
+|---|---|---|---|
+| 申 子 辰 | 신자진 | water | Water trinity — birth (申), peak (子), storage (辰). |
+| 亥 卯 未 | 해묘미 | wood | Wood trinity — birth (亥), peak (卯), storage (未). |
+| 寅 午 戌 | 인오술 | fire | Fire trinity — birth (寅), peak (午), storage (戌). |
+| 巳 酉 丑 | 사유축 | metal | Metal trinity — birth (巳), peak (酉), storage (丑). |
+
+## Reading notes
+
+- Full trinity in a chart is rare and powerful — strongly amplifies that element.
+- Two of the three (반합 / half-combination) is more common and still produces a noticeable pull toward the element, especially if the *peak* (中支) is one of the two present.
+- The peak branches (子, 卯, 午, 酉) are the cardinal points — most powerful in any trinity.
+
+
+# Sin sal stars present in this chart
+
+**Location: month**
+
+---
+type: sin_sal
+id: cheon_eul_gwi_in
+chinese: 天乙貴人
+korean: 천을귀인
+korean_romanized: cheon-eul gwi-in
+english: Heavenly Noble Person
+polarity: auspicious
+category: noble star (highest)
+trigger_from: Day Master or Year Stem
+---
+
+# 天乙貴人 (천을귀인 cheon-eul gwi-in) — Heavenly Noble Person
+
+**Type** — auspicious
+**Category** — noble star (highest)
+**Calculated from** — Day Master or Year Stem
+
+## Interpretation
+The most auspicious star in Saju. Brings noble helpers, mentors, protection in adversity. The person attracts and recognizes the right guides at the right moment.
+
+## Lookup table
+```yaml
+甲: 丑, 未
+戊: 丑, 未
+庚: 丑, 未
+乙: 子, 申
+己: 子, 申
+丙: 亥, 酉
+丁: 亥, 酉
+壬: 卯, 巳
+癸: 卯, 巳
+辛: 午, 寅
+```
+
+
+**Location: hour**
+
+---
+type: sin_sal
+id: tian_de_gui_ren
+chinese: 天德貴人
+korean: 천덕귀인
+korean_romanized: cheon-deok gwi-in
+english: Heavenly Virtue Noble
+polarity: auspicious
+category: moral protection
+trigger_from: Month Branch
+---
+
+# 天德貴人 (천덕귀인 cheon-deok gwi-in) — Heavenly Virtue Noble
+
+**Type** — auspicious
+**Category** — moral protection
+**Calculated from** — Month Branch
+
+## Interpretation
+Star of moral protection and quiet good fortune. Indicates innate kindness and shielding from major misfortune through accumulated virtue.
+
+
+**Location: day_master**
+
+---
+type: sin_sal
+id: goe_gang_sal
+chinese: 魁罡殺
+korean: 괴강살
+korean_romanized: goe_gang_sal
+category: mixed
+---
+
+# 魁罡殺 (괴강살 goe_gang_sal)
+
+**Category** — mixed
+
+**Pillars** — 庚辰, 庚戌, 壬辰, 壬戌, 戊戌, 戊辰
+
+## Interpretation
+
+Kuigang — leadership of the Big Dipper. Extraordinary force, intelligence, command. Either greatness or great trouble — rarely middle ground. In women, classical texts considered it harsh; modern readings reframe as exceptional independence and authority.
+
+
+# Five elements reference
+
+# Five elements (오행)
+
+## 木 wood (목 mok)
+
+- **Season** — spring
+- **Direction** — east
+- **Color** — green/blue
+- **Organs** — yin: liver, yang: gallbladder
+- **Generates** — fire
+- **Controls** — earth
+- **Generated by** — water
+- **Controlled by** — metal
+- **Stems** — 甲, 乙
+- **Branches** — 寅, 卯
+- **Positive emotion** — kindness, vision
+- **Negative emotion** — anger, frustration
+
+Growth-oriented, future-focused, planner. Wants to expand and create. Frustration when blocked.
+
+## 火 fire (화 hwa)
+
+- **Season** — summer
+- **Direction** — south
+- **Color** — red
+- **Organs** — yin: heart, yang: small intestine
+- **Generates** — earth
+- **Controls** — metal
+- **Generated by** — wood
+- **Controlled by** — water
+- **Stems** — 丙, 丁
+- **Branches** — 巳, 午
+- **Positive emotion** — joy, passion
+- **Negative emotion** — anxiety, mania
+
+Expressive, charismatic, present-focused. Wants connection and visibility. Burnout when unchecked.
+
+## 土 earth (토 to)
+
+- **Season** — late summer / transitions
+- **Direction** — center
+- **Color** — yellow/brown
+- **Organs** — yin: spleen, yang: stomach
+- **Generates** — metal
+- **Controls** — water
+- **Generated by** — fire
+- **Controlled by** — wood
+- **Stems** — 戊, 己
+- **Branches** — 辰, 未, 戌, 丑
+- **Positive emotion** — trust, care
+- **Negative emotion** — worry, overthinking
+
+Stabilizing, caring, present. Wants security and belonging. Stagnates when stuck in worry.
+
+## 金 metal (금 geum)
+
+- **Season** — autumn
+- **Direction** — west
+- **Color** — white/silver
+- **Organs** — yin: lung, yang: large intestine
+- **Generates** — water
+- **Controls** — wood
+- **Generated by** — earth
+- **Controlled by** — fire
+- **Stems** — 庚, 辛
+- **Branches** — 申, 酉
+- **Positive emotion** — courage, righteousness
+- **Negative emotion** — grief, rigidity
+
+Refined, principled, structuring. Wants order and value. Cold or grieving when imbalanced.
+
+## 水 water (수 su)
+
+- **Season** — winter
+- **Direction** — north
+- **Color** — black/dark blue
+- **Organs** — yin: kidney, yang: bladder
+- **Generates** — wood
+- **Controls** — fire
+- **Generated by** — metal
+- **Controlled by** — earth
+- **Stems** — 壬, 癸
+- **Branches** — 亥, 子
+- **Positive emotion** — wisdom, will
+- **Negative emotion** — fear, paralysis
+
+Reflective, deep, conserving. Wants understanding and quiet power. Withdraws when fearful.
+
+
+# Now provide the reading
+
+Walk through the methodology in order. Show your reasoning briefly (1-2 sentences per step), then deliver the reading itself. Use Korean terminology with English explanations. Be specific to THIS chart — never generic.
+
+Begin with a brief chart summary so the reader (and you) can verify accuracy:
+
+> 일주 (Day Pillar): [stem][branch]
+> 일간 (Day Master): [stem] - [element] ([yin/yang])
+> 월지 (Month Branch): [branch]
+> Strength: [strong/weak/balanced]
+> 용신 (Useful God): [element]
+> 격국 (Pattern): [pattern]
+
+Then proceed with the focused reading.

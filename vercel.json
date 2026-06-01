@@ -2,6 +2,10 @@
   "functions": {
     "api/saju.py": {
       "runtime": "@vercel/python@4.3.0"
+    },
+    "api/saju/reading.py": {
+      "runtime": "@vercel/python@4.3.0",
+      "maxDuration": 60
     }
   }
 }
