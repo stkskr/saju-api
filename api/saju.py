@@ -278,6 +278,19 @@ def trunc_div(a: int, b: int) -> int:
     return int(a / b)
 
 
+def local_to_lmt(year: int, month: int, day: int, hour: int, minute: int,
+                  utc_offset: float, longitude: float) -> Dict[str, int]:
+    """Convert local civil time to Local Mean Time (true solar time).
+    Each degree of longitude = 4 minutes of solar time.
+    Positive longitude = East; negative = West (e.g. Vancouver = -123.12).
+    """
+    local_dt = datetime.datetime(year, month, day, hour, minute)
+    utc_dt = local_dt - datetime.timedelta(hours=utc_offset)
+    lmt_dt = utc_dt + datetime.timedelta(minutes=longitude * 4)
+    return {'year': lmt_dt.year, 'month': lmt_dt.month, 'day': lmt_dt.day,
+            'hour': lmt_dt.hour, 'minute': lmt_dt.minute}
+
+
 def adjust_kdt_to_kst(year: int, month: int, day: int, hour: int, minute: int) -> Dict[str, int]:
     if not is_korean_daylight_time(year, month, day):
         return {'year': year, 'month': month, 'day': day, 'hour': hour, 'minute': minute}
@@ -699,7 +712,16 @@ def spirit_info(hanja: str) -> Dict[str, str]:
 
 
 def calculate_saju(input_data: Dict[str, Any]) -> Dict[str, Any]:
-    adjusted = adjust_kdt_to_kst(input_data['year'], input_data['month'], input_data['day'], input_data['hour'], input_data['minute'])
+    longitude = input_data.get('longitude')
+    utc_offset = input_data.get('utcOffset')
+    used_lmt = longitude is not None and utc_offset is not None
+    if used_lmt:
+        adjusted = local_to_lmt(input_data['year'], input_data['month'], input_data['day'],
+                                  input_data['hour'], input_data['minute'],
+                                  float(utc_offset), float(longitude))
+    else:
+        adjusted = adjust_kdt_to_kst(input_data['year'], input_data['month'], input_data['day'],
+                                      input_data['hour'], input_data['minute'])
     year = adjusted['year']
     month = adjusted['month']
     day = adjusted['day']
@@ -766,6 +788,7 @@ def calculate_saju(input_data: Dict[str, Any]) -> Dict[str, Any]:
         'sewoon': [],
         'wolwoon': [],
         'currentYear': current_year,
+        'lmtAdjusted': adjusted if used_lmt else None,
     }
 
 
@@ -906,8 +929,14 @@ def format_saju(d: Dict[str, Any]) -> str:
     today = datetime.datetime.now().strftime('%Y-%m-%d')
     g_label = 'Male (남성)' if inp.get('gender') == 'M' else 'Female (여성)'
     name_line = f"Name:           {inp.get('name')}\n" if inp.get('name') else ''
-    time_line = 'Birth Time:      Unknown (미상)' if inp.get('unknownTime') else f"Birth Time:      {int(inp.get('hour', 0)):02d}:{int(inp.get('minute', 0)):02d}"
+    time_line = 'Birth Time:      Unknown (미상)' if inp.get('unknownTime') else f"Birth Time:      {int(inp.get('hour', 0)):02d}:{int(inp.get('minute', 0)):02d} (local)"
     date_label = f"{MONTHS[inp['month']-1]} {inp['day']}, {inp['year']}"
+    lmt = d.get('lmtAdjusted')
+    lmt_line = (
+        f"True Solar Time: {lmt['hour']:02d}:{lmt['minute']:02d}  "
+        f"{MONTHS_SHORT[lmt['month']-1]} {lmt['day']}, {lmt['year']}  "
+        f"(lng {inp.get('longitude'):+.4f}°, UTC{inp.get('utcOffset'):+g})"
+    ) if lmt else None
     WIDE = 68
 
     lines: List[str] = []
@@ -922,6 +951,8 @@ def format_saju(d: Dict[str, Any]) -> str:
     ln(f"{name_line}Gender:         {g_label}")
     ln(f"Date of Birth:  {date_label}")
     ln(time_line)
+    if lmt_line:
+        ln(lmt_line)
     ln(f"Analyzed:       {today}")
     blk()
 
@@ -1109,6 +1140,8 @@ class handler(BaseHTTPRequestHandler):
                 'gender': data['gender'],
                 'name': data.get('name', ''),
                 'unknownTime': data.get('unknownTime', False),
+                'longitude': data.get('longitude'),
+                'utcOffset': data.get('utcOffset'),
             }
 
             processed = process_input(input_data)

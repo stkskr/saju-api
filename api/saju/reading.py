@@ -127,6 +127,8 @@ class handler(BaseHTTPRequestHandler):
                 "gender":      str(body["gender"]),
                 "name":        str(body.get("name", "")),
                 "unknownTime": bool(body.get("unknownTime", False)),
+                "longitude":   float(body["longitude"]) if body.get("longitude") is not None else None,
+                "utcOffset":   float(body["utcOffset"]) if body.get("utcOffset") is not None else None,
             }
             if input_data["gender"] not in ("M", "F"):
                 raise ValueError("gender must be 'M' or 'F'")
