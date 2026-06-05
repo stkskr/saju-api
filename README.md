@@ -18,7 +18,9 @@ Returns a formatted text report of the birth chart.
   "year": 1990, "month": 5, "day": 15,
   "hour": 14, "minute": 30,
   "gender": "F",
-  "name": "Optional Name"
+  "name": "Optional Name",
+  "longitude": -123.1207,
+  "utcOffset": -7
 }
 ```
 
@@ -58,9 +60,13 @@ Computes the birth chart, selects relevant reference files from the `divination/
 | `minute` | int | | 0–59 | `0` |
 | `gender` | string | ✓ | `M` \| `F` | |
 | `name` | string | | | `""` |
+| `longitude` | float | | Degrees E (positive) / W (negative) | none |
+| `utcOffset` | float | | Hours from UTC, e.g. `-7` for PDT | none |
 | `focus` | string | | `life` \| `career` \| `relationships` \| `wealth` \| `year` | `life` |
 | `question` | string | | Any follow-up question | none |
 | `language` | string | | `en` \| `ko` \| `bilingual` | `en` |
+
+> **True Solar Time (LMT):** When both `longitude` and `utcOffset` are provided, the API converts your local civil time to Local Mean Time before computing pillars. Each degree of longitude = 4 minutes of solar time. Without these fields the API falls back to legacy KDT→KST behaviour (assumes Korean birth).
 
 **Response — `Content-Type: text/event-stream`**
 
@@ -97,6 +103,35 @@ const res = await fetch('/api/saju/reading', {
 });
 const reader = res.body.getReader();
 // decode and split on "\n\n", parse each "data: {...}" line
+```
+
+---
+
+### `POST /api/saju/prompt` — Prompt assembly (no LLM)
+
+Returns the fully assembled chart data and reference context as JSON — ready to paste directly into Claude. No API key required.
+
+**Request** — same fields as `/api/saju/reading` (including `longitude`/`utcOffset`)
+
+**Response**
+```json
+{
+  "chart": { ... },
+  "system_prompt": "You are a Korean Four Pillars...",
+  "user_message": "# Reference library\n..."
+}
+```
+
+**Example — Vancouver birth (true solar time)**
+```json
+{
+  "year": 1994, "month": 8, "day": 23,
+  "hour": 10, "minute": 35,
+  "gender": "M",
+  "longitude": -123.1207,
+  "utcOffset": -7,
+  "focus": "life"
+}
 ```
 
 ---
